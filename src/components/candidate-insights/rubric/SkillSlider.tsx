@@ -48,9 +48,18 @@ export default function SkillSlider({ skill, onChange }: SkillSliderProps) {
     <div className="flex items-center gap-3 py-2.5 px-3 rounded-lg hover:bg-gray-50 transition-colors group">
       {/* Left: skill name + source badge */}
       <div className="flex items-center gap-2 min-w-0 w-44 shrink-0">
-        <span className="font-semibold text-sm text-gray-800 truncate" title={skill.name}>
-          {skill.name}
-        </span>
+        <div className="relative group/tooltip min-w-0">
+          <span className="font-semibold text-sm text-gray-800 truncate block cursor-default">
+            {skill.name}
+          </span>
+          {/* Tooltip */}
+          <div className="absolute left-0 top-full mt-1.5 z-50 hidden group-hover/tooltip:block pointer-events-none">
+            <div className="bg-gray-900 text-white text-xs rounded-md px-2.5 py-1.5 whitespace-nowrap shadow-lg max-w-xs">
+              {skill.name}
+              <div className="absolute -top-1 left-3 w-2 h-2 bg-gray-900 rotate-45" />
+            </div>
+          </div>
+        </div>
         <SourceBadge source="O*NET" />
       </div>
 
