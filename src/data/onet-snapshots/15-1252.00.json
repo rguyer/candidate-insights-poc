@@ -1,0 +1,157 @@
+{
+  "socCode": "15-1252.00",
+  "occupationTitle": "Software Developer",
+  "jobZone": 4,
+  "technicalSkills": [
+    {
+      "elementId": "KN.001",
+      "name": "Programming Languages & Paradigms",
+      "importance": 4.8,
+      "level": 7,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.001",
+      "name": "Software Development & Engineering",
+      "importance": 4.7,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "KN.002",
+      "name": "Computer Science Fundamentals",
+      "importance": 4.4,
+      "level": 6,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.002",
+      "name": "Systems Analysis & Design",
+      "importance": 4.1,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "KN.003",
+      "name": "Database Administration & SQL",
+      "importance": 3.9,
+      "level": 5,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "TK.001",
+      "name": "Cloud Computing (AWS / GCP / Azure)",
+      "importance": 3.8,
+      "level": 5,
+      "category": "technology"
+    },
+    {
+      "elementId": "TK.002",
+      "name": "DevOps & CI/CD Pipelines",
+      "importance": 3.7,
+      "level": 5,
+      "category": "technology"
+    },
+    {
+      "elementId": "SK.003",
+      "name": "API Design & Integration",
+      "importance": 3.6,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.004",
+      "name": "Code Review & Quality Assurance",
+      "importance": 3.3,
+      "level": 4,
+      "category": "skill"
+    },
+    {
+      "elementId": "TK.003",
+      "name": "Version Control (Git / GitHub)",
+      "importance": 4.5,
+      "level": 6,
+      "category": "technology"
+    }
+  ],
+  "softSkills": [
+    {
+      "elementId": "AB.001",
+      "name": "Problem Sensitivity",
+      "importance": 4.3,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.002",
+      "name": "Deductive Reasoning",
+      "importance": 4.1,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.003",
+      "name": "Information Ordering",
+      "importance": 3.8,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.004",
+      "name": "Written Comprehension",
+      "importance": 3.5,
+      "level": 4,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.005",
+      "name": "Oral Expression",
+      "importance": 3.2,
+      "level": 4,
+      "category": "ability"
+    }
+  ],
+  "suggestedSkills": [
+    {
+      "name": "Kubernetes & Container Orchestration",
+      "relevance": 9,
+      "category": "technical"
+    },
+    {
+      "name": "GraphQL",
+      "relevance": 7,
+      "category": "technical"
+    },
+    {
+      "name": "System Design & Architecture",
+      "relevance": 9,
+      "category": "technical"
+    },
+    {
+      "name": "Microservices Architecture",
+      "relevance": 8,
+      "category": "technical"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "Q001",
+      "requirement": "Bachelor's degree in Computer Science, Software Engineering, or related technical field",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q002",
+      "requirement": "3+ years of professional software development experience",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q003",
+      "requirement": "AWS Certified Developer, Google Cloud Professional, or equivalent cloud certification",
+      "level": "Preferred",
+      "type": "Certification"
+    }
+  ],
+  "fetchedAt": "2026-03-28T00:00:00.000Z"
+}

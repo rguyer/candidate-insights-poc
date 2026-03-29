@@ -1,0 +1,4118 @@
+{
+  "generatedAt": "2026-03-28T00:00:00.000Z",
+  "scores": [
+    {
+      "candidateId": "cand-01",
+      "jobId": "job-sw-dev",
+      "overallScore": 92,
+      "skillsScore": 93,
+      "experienceScore": 95,
+      "educationScore": 85,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 7,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 3,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "7+ years full-stack development at Stripe and Twilio using Python, TypeScript, and Node.js across high-traffic production systems",
+        "Demonstrated AWS expertise (EC2, Lambda, RDS, S3) with certified AWS Solutions Architect credential earned 2023",
+        "Led PostgreSQL schema migrations supporting 10M+ records at Stripe's payments infrastructure team",
+        "React and Next.js front-end ownership on consumer-facing checkout flows handling $2B+ annual transaction volume"
+      ],
+      "concerns": [
+        "No explicit Kubernetes or container orchestration experience listed; Docker mentioned only in passing",
+        "GraphQL listed as 'familiar' rather than production-used — job requires API design proficiency across REST and GraphQL",
+        "All prior roles at high-growth fintech companies; may need ramp time in a different industry vertical"
+      ],
+      "whyThisScore": "Marcus Chen's resume demonstrates deep alignment with all core technical requirements: Python and TypeScript as primary languages, AWS infrastructure management, PostgreSQL at scale, and React front-end delivery. His 7+ years of progressively senior roles at Stripe and Twilio, combined with an AWS Solutions Architect certification, drove strong skills and experience sub-scores. The single gap — limited GraphQL production exposure — prevents a perfect technical score but does not materially affect overall fit.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Programming",
+          "evidence": "Resume lists Python and TypeScript as primary languages with 7 years of production use; contributed to open-source Python SDK at Stripe with 2,000+ GitHub stars.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Software Development",
+          "evidence": "Led end-to-end development of Stripe's fraud detection microservice, reducing false positives by 34% and handling 50K req/sec in production.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Cloud Computing",
+          "evidence": "AWS Solutions Architect – Associate certified (2023); designed multi-region Lambda + SQS pipeline at Twilio processing 1B+ messages/month.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Database Administration",
+          "evidence": "Owned PostgreSQL schema design and migration strategy for Stripe's core payments tables; implemented read-replica routing reducing P99 latency by 40%.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "API Design",
+          "evidence": "Designed and published Stripe's public REST API endpoints used by 500K+ developers; REST design listed as core competency; GraphQL noted as 'familiar'.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Systems Analysis",
+          "evidence": "Architected microservices decomposition of Stripe's monolithic billing system, reducing deployment cycle from 2 weeks to daily releases.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "DevOps/CI-CD",
+          "evidence": "Implemented GitHub Actions CI/CD pipeline with automated test gates and canary deployments at Twilio; Docker mentioned in project context.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Version Control",
+          "evidence": "Git/GitHub used throughout career; maintainer of internal Stripe monorepo tooling; open-source contributions demonstrate advanced branching and PR workflows.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Problem Sensitivity",
+          "evidence": "Proactively identified a race condition in Stripe's idempotency layer during code review, preventing an estimated $500K in duplicate charge exposure.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Deductive Reasoning",
+          "evidence": "Diagnosed root cause of a 3-hour production incident at Twilio using distributed tracing logs, isolating a third-party DNS misconfiguration within 45 minutes.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Information Ordering",
+          "evidence": "Authored Stripe's internal API versioning RFC adopted org-wide; structured complex multi-team projects into phased delivery milestones.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Written Comprehension",
+          "evidence": "Technical blog posts on distributed systems published on Stripe Engineering Blog with 50K+ cumulative reads; strong written communication inferred throughout.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 13,
+          "skill": "Oral Expression",
+          "evidence": "Presented architecture proposals to 30-person engineering org at Stripe; mentored 3 junior engineers through weekly 1:1 technical coaching sessions.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 8,
+          "priority": "Desired",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Computer Science or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Computer Science, University of Washington, 2018"
+        },
+        {
+          "requirement": "5+ years professional software development experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "7 years of professional experience across Stripe (2021–present) and Twilio (2018–2021)"
+        },
+        {
+          "requirement": "Proficiency in at least two backend languages (Python, Java, Go, or TypeScript)",
+          "met": true,
+          "level": "Required",
+          "evidence": "Python and TypeScript listed as primary languages with production use across both employers"
+        },
+        {
+          "requirement": "Experience with cloud infrastructure (AWS, GCP, or Azure)",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "AWS Solutions Architect – Associate certified; multi-region AWS architecture designed and maintained at Twilio"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-02",
+      "jobId": "job-sw-dev",
+      "overallScore": 87,
+      "skillsScore": 88,
+      "experienceScore": 90,
+      "educationScore": 82,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 7,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 4,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 3,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "5 years Python/Django backend development at Shopify and HubSpot with full ownership of REST API surfaces consumed by 100K+ merchants",
+        "React and TypeScript front-end experience across two production SaaS products with accessibility compliance (WCAG 2.1 AA)",
+        "AWS and GCP multi-cloud exposure with Terraform infrastructure-as-code; automated test coverage consistently above 90% across all projects",
+        "Led 4-person squad through Agile delivery of Shopify's multi-currency checkout feature, shipped on schedule to 1.2M merchants"
+      ],
+      "concerns": [
+        "PostgreSQL experience is primarily read-heavy query optimization; limited evidence of complex schema migrations or sharding strategies",
+        "Soft skills score docked slightly — no evidence of public technical writing, conference talks, or external mentorship",
+        "One gap year (2022) between HubSpot and Shopify not explained in resume"
+      ],
+      "whyThisScore": "Sarah Okafor presents a strong full-stack profile with Python/Django backend depth and solid React/TypeScript front-end delivery across two well-regarded SaaS companies. Her 5 years of experience, cloud certifications, and consistent test discipline align closely with all Essential and Important requirements. Minor gaps in deep database administration and a slightly thinner soft skills footprint hold the score just below cand-01's benchmark.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Programming",
+          "evidence": "Python/Django primary stack for 5 years; TypeScript used throughout HubSpot and Shopify front-end codebases with strict type-checking enforced via CI.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Software Development",
+          "evidence": "Owned Shopify's multi-currency checkout API from design through GA launch; feature adopted by 1.2M merchants within 90 days of release.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Cloud Computing",
+          "evidence": "AWS Certified Developer – Associate (2022); used Terraform to manage GCP Cloud Run and AWS ECS environments at HubSpot.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Systems Analysis",
+          "evidence": "Decomposed HubSpot's legacy contact sync service into three independent microservices, cutting error rate from 2.3% to 0.1% over six months.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "API Design",
+          "evidence": "Designed RESTful API contracts for Shopify's multi-currency endpoints; documented OpenAPI specs that became the merchant developer reference standard.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Database Administration",
+          "evidence": "Optimized slow-query log at HubSpot reducing average query time by 55%; PostgreSQL used throughout but no evidence of schema migration ownership at scale.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "DevOps/CI-CD",
+          "evidence": "Maintained CircleCI pipelines at HubSpot and GitHub Actions at Shopify; enforced 90%+ test coverage gates before merge.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Version Control",
+          "evidence": "Git power user; co-authored Shopify's internal git branching strategy guide adopted across 6 product teams.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Problem Sensitivity",
+          "evidence": "Caught a data race in Shopify's distributed lock implementation during pre-launch review, preventing a critical inventory oversell scenario.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Deductive Reasoning",
+          "evidence": "Used structured debugging methodology to isolate a memory leak in HubSpot's Node.js worker pool, reducing production OOM incidents to zero.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Information Ordering",
+          "evidence": "Wrote detailed technical design docs for 3 major features at Shopify; known for clear milestone breakdown and risk flagging in sprint planning.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Written Comprehension",
+          "evidence": "Produced API documentation and internal RFCs at both HubSpot and Shopify; strong written communication inferred from resume clarity and detail.",
+          "source": "Inferred",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Computer Science or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Computer Science, University of Toronto, 2020"
+        },
+        {
+          "requirement": "5+ years professional software development experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "5 years across HubSpot (2020–2022) and Shopify (2023–present)"
+        },
+        {
+          "requirement": "Proficiency in at least two backend languages (Python, Java, Go, or TypeScript)",
+          "met": true,
+          "level": "Required",
+          "evidence": "Python/Django and TypeScript used in production at both employers"
+        },
+        {
+          "requirement": "Experience with cloud infrastructure (AWS, GCP, or Azure)",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "AWS Certified Developer; Terraform-managed GCP and AWS environments at HubSpot"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-03",
+      "jobId": "job-sw-dev",
+      "overallScore": 62,
+      "skillsScore": 57,
+      "experienceScore": 65,
+      "educationScore": 72,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 4,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 2,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "3 years JavaScript and React front-end development at a mid-size digital agency with 15+ client projects shipped",
+        "Solid Node.js REST API experience for internal tooling; comfortable with the JavaScript full stack",
+        "Completed AWS Certified Cloud Practitioner certification in 2025 showing commitment to cloud upskilling",
+        "Strong collaborative track record — co-led front-end guild of 8 developers at current agency"
+      ],
+      "concerns": [
+        "No Python, Java, Go, or TypeScript experience — limited to JavaScript/Node.js; job requires proficiency in at least two backend languages",
+        "No production cloud infrastructure experience beyond basic AWS S3 and CloudFront deployments",
+        "Database experience limited to MongoDB (NoSQL); no PostgreSQL or relational DB administration background",
+        "No evidence of CI/CD pipeline ownership, containerization, or DevOps practices beyond basic Git workflows"
+      ],
+      "whyThisScore": "James Whitfield demonstrates solid front-end JavaScript and React skills that partially satisfy the software development requirements, but significant gaps exist on the backend: no Python or typed language experience, no relational database ownership, and no meaningful cloud infrastructure work. His 3 years of experience and agency background suggest mid-level front-end competence but insufficient breadth for a full-stack Software Developer role at this seniority.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Programming",
+          "evidence": "JavaScript (ES2020+) and React used across 15+ agency client projects; Node.js for back-end API layers in 4 internal tools.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 6,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Software Development",
+          "evidence": "Delivered pixel-perfect React SPAs for 15+ client projects; managed full front-end lifecycle from wireframe to production deployment.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 6,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Cloud Computing",
+          "evidence": "AWS Cloud Practitioner certified (2025); deployed static assets to S3/CloudFront; no evidence of compute, container, or serverless architecture work.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 3,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "API Design",
+          "evidence": "Built REST APIs in Node.js/Express for 4 internal agency tools; no public API design or versioning strategy experience documented.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Database Administration",
+          "evidence": "MongoDB used for agency project data storage; no SQL or PostgreSQL experience mentioned — a gap for this role's requirements.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Systems Analysis",
+          "evidence": "Mapped client feature requirements to technical tasks for 3 project scopes; limited evidence of architectural decomposition or system design.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Version Control",
+          "evidence": "Git and GitHub used throughout agency career; managed feature branches, PRs, and code reviews across team of 8.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified cross-browser rendering inconsistencies during QA phase on 3 client launches, preventing post-launch support tickets.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 9,
+          "skill": "Deductive Reasoning",
+          "evidence": "Debugged intermittent API timeout issues in Node.js service by isolating event loop blocking from a synchronous file read call.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Oral Expression",
+          "evidence": "Co-led front-end guild of 8 developers; facilitated bi-weekly knowledge-sharing sessions on React patterns and tooling.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Computer Science or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Information Systems, Arizona State University, 2022"
+        },
+        {
+          "requirement": "5+ years professional software development experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "3 years of professional experience; does not meet the 5-year minimum"
+        },
+        {
+          "requirement": "Proficiency in at least two backend languages (Python, Java, Go, or TypeScript)",
+          "met": false,
+          "level": "Required",
+          "evidence": "Only JavaScript/Node.js — none of the specified backend languages appear in resume"
+        },
+        {
+          "requirement": "Experience with cloud infrastructure (AWS, GCP, or Azure)",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "AWS Cloud Practitioner certification only; no production infrastructure management evidence"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-04",
+      "jobId": "job-sw-dev",
+      "overallScore": 29,
+      "skillsScore": 18,
+      "experienceScore": 35,
+      "educationScore": 50,
+      "matchLabel": "Low Match",
+      "technicalSkillsMatched": 1,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Low",
+      "educationMet": 1,
+      "educationTotal": 3,
+      "penalties": [
+        "Career trajectory misaligned — 8 years HR/People Ops, not software engineering",
+        "No production software development experience in any language",
+        "CS degree not leveraged in professional career"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": false,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "B.S. Computer Science provides theoretical foundation — understands algorithms, data structures, and systems concepts",
+        "Advanced Excel/SQL for people analytics dashboards tracking 2,000+ employee workforce at Deloitte",
+        "Workday and SAP SuccessFactors HRIS administration — technically adjacent skills showing aptitude for complex software systems",
+        "Strong communication and stakeholder management skills demonstrated across HR business partner roles"
+      ],
+      "concerns": [
+        "Entire 8-year career spent in HR Generalist, HRIS Analyst, and People Operations roles — no software development work",
+        "No Python, TypeScript, Java, or any backend language usage documented beyond academic coursework",
+        "No cloud infrastructure, CI/CD, or software architecture experience; HRIS administration is not cloud computing",
+        "Applying for a software engineering role appears to be a significant career pivot without evidence of transition steps (bootcamp, side projects, contributions)"
+      ],
+      "whyThisScore": "Priya Sharma holds a Computer Science degree but has spent her entire 8-year career in HR and People Operations, never working as a software developer. While her CS background and HRIS technical aptitude show intellectual capability, she lacks virtually every technical qualification for this role: no programming language proficiency, no cloud infrastructure experience, no database administration, and no software development portfolio. This is a strong mismatch for job-sw-dev.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Programming",
+          "evidence": "B.S. CS coursework included Python and Java; no professional programming experience documented in 8 years of HR roles.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Software Development",
+          "evidence": "No professional software development experience; HRIS configuration at Workday and SuccessFactors is closest adjacent technical skill.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Cloud Computing",
+          "evidence": "No cloud infrastructure experience; Workday is SaaS but no evidence of cloud architecture, AWS/GCP/Azure usage, or IaC.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Database Administration",
+          "evidence": "SQL used for people analytics reporting in Excel/PowerBI context; no relational DB administration or schema design.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified systemic onboarding compliance gaps across 3 Deloitte offices, designing corrective process that reduced audit findings by 60%.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 6,
+          "skill": "Information Ordering",
+          "evidence": "Managed annual open enrollment project for 2,000+ employees coordinating across Benefits, Payroll, and IT — strong organizational skills inferred.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 7,
+          "skill": "Oral Expression",
+          "evidence": "Delivered HR policy training to 200+ managers at Deloitte; facilitated cross-functional workshops on performance review calibration.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Desired",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Computer Science or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Computer Science, Purdue University, 2017"
+        },
+        {
+          "requirement": "5+ years professional software development experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "0 years of software development experience; entire career is in HR/People Operations"
+        },
+        {
+          "requirement": "Proficiency in at least two backend languages (Python, Java, Go, or TypeScript)",
+          "met": false,
+          "level": "Required",
+          "evidence": "No professional programming language use documented; CS coursework only"
+        },
+        {
+          "requirement": "Experience with cloud infrastructure (AWS, GCP, or Azure)",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "No cloud infrastructure experience; SaaS HRIS usage is not equivalent"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-05",
+      "jobId": "job-data-sci",
+      "overallScore": 94,
+      "skillsScore": 95,
+      "experienceScore": 95,
+      "educationScore": 90,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 9,
+      "technicalSkillsTotal": 10,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 3,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "Ph.D. in Statistics from MIT (2019) with dissertation on Bayesian inference for high-dimensional time-series — exceptional educational credential for a Data Scientist role",
+        "6 years applied ML at Google DeepMind and Meta AI Research: production models in TensorFlow and PyTorch serving 500M+ daily active users",
+        "Deep NLP expertise: fine-tuned BERT and LLaMA-2 models for content classification achieving 94% precision at Meta scale",
+        "Led data engineering on petabyte-scale Spark/BigQuery pipelines and published 4 peer-reviewed papers at NeurIPS and ICML"
+      ],
+      "concerns": [
+        "MLOps/deployment tooling (MLflow, Kubeflow) mentioned only in academic context — limited evidence of production ML lifecycle management",
+        "Current role is research-focused; may require adjustment to product-driven, deadline-oriented data science environment"
+      ],
+      "whyThisScore": "Aisha Mensah is an exceptionally strong candidate: a Ph.D. statistician with 6 years of production ML experience at two of the world's leading AI organizations. Her Python, PyTorch, TensorFlow, SQL, and NLP skill set maps directly to 9 of 10 technical requirements. The only partial gap is in operationalized MLOps tooling, where her experience is more research-lab than production-pipeline oriented. All other dimensions score at or near maximum.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Machine Learning",
+          "evidence": "6 years production ML at Google DeepMind and Meta AI Research; built PyTorch recommendation models serving 500M+ daily users at Meta.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Statistical Analysis",
+          "evidence": "Ph.D. in Statistics from MIT (2019); dissertation on Bayesian hierarchical models for high-dimensional time-series; 4 peer-reviewed publications.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Python Programming",
+          "evidence": "Python primary language throughout career; authored internal ML tooling library at Meta used by 200+ data scientists.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Data Engineering",
+          "evidence": "Owned petabyte-scale Spark and BigQuery ETL pipelines at Meta processing 2TB+ daily; reduced pipeline failure rate from 3% to 0.2%.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Deep Learning / Neural Networks",
+          "evidence": "Fine-tuned BERT and LLaMA-2 for content policy classification at Meta achieving 94% precision; TensorFlow used at DeepMind for reinforcement learning research.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "SQL / Database Querying",
+          "evidence": "Advanced SQL for BigQuery and Hive queries across Meta's data warehouse; optimized analytical queries reducing dashboard load time by 70%.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Data Visualization",
+          "evidence": "Built executive-facing dashboards in Tableau and custom Python (Plotly/Seaborn) visualizations for NLP model performance monitoring at Meta.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Experiment Design / A/B Testing",
+          "evidence": "Designed and analyzed 15+ A/B experiments at Meta measuring content ranking model impact on engagement; trained junior scientists on experiment methodology.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "MLOps / Model Deployment",
+          "evidence": "Used MLflow for experiment tracking at DeepMind; production deployment experience is research-lab oriented rather than full MLOps lifecycle (Kubeflow, serving infrastructure).",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 10,
+          "skill": "Cloud Platforms",
+          "evidence": "GCP (BigQuery, Vertex AI) used extensively at Meta; Google Cloud Certified – Professional Data Engineer (2023).",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Desired",
+          "category": "technical"
+        },
+        {
+          "rank": 11,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified that a content classifier was biased against non-English slang, triggering a fairness audit that improved model equity across 15 languages.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Deductive Reasoning",
+          "evidence": "Traced a 12% drop in recommendation CTR to a subtle feature leakage bug introduced during a dataset refresh — caught before production rollout.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 13,
+          "skill": "Written Comprehension",
+          "evidence": "4 peer-reviewed papers at NeurIPS and ICML; authors require deep technical reading and synthesis across dense literature.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Master's or Ph.D. in Statistics, Mathematics, Computer Science, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "Ph.D. Statistics, MIT, 2019"
+        },
+        {
+          "requirement": "4+ years applied machine learning or data science experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "6 years across Google DeepMind (2019–2022) and Meta AI Research (2022–present)"
+        },
+        {
+          "requirement": "Proficiency in Python and at least one ML framework (PyTorch or TensorFlow)",
+          "met": true,
+          "level": "Required",
+          "evidence": "Python primary language; PyTorch and TensorFlow both used in production"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-06",
+      "jobId": "job-data-sci",
+      "overallScore": 89,
+      "skillsScore": 90,
+      "experienceScore": 88,
+      "educationScore": 85,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 8,
+      "technicalSkillsTotal": 10,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 3,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "M.S. Applied Mathematics, Stanford (2020) with concentration in statistical learning and optimization",
+        "5 years data science at Airbnb and LinkedIn: built and deployed ML models for price optimization, demand forecasting, and feed ranking",
+        "Strong MLOps track record — owned full model lifecycle in MLflow and deployed models via KFServing on Kubernetes at Airbnb",
+        "Exceptional A/B testing and causal inference skills; designed 20+ experiments influencing Airbnb's pricing strategy decisions"
+      ],
+      "concerns": [
+        "Deep learning/NLP experience is limited — built standard tabular ML models; no transformer or large language model work",
+        "GCP experience is light; primary cloud is AWS; may need ramp time if role requires GCP stack",
+        "No peer-reviewed publications; research depth less than top academic candidates"
+      ],
+      "whyThisScore": "Tyler Brooks is a strong industry data scientist whose strength is in the complete ML lifecycle: from feature engineering and model training through production deployment and experiment evaluation. His Stanford M.S., 5 years at Airbnb and LinkedIn, and hands-on MLOps experience distinguish him from research-focused candidates. The gaps in deep learning and NLP are genuine but may not affect this role if its primary focus is tabular ML and analytics rather than language model work.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Machine Learning",
+          "evidence": "Deployed gradient boosting and ensemble models at Airbnb for nightly price optimization; model lifted host revenue by 8% on average.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Statistical Analysis",
+          "evidence": "M.S. Applied Mathematics with statistical learning concentration; designed causal inference frameworks for 20+ A/B experiments at Airbnb.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Python Programming",
+          "evidence": "Python (scikit-learn, pandas, XGBoost, LightGBM) primary stack throughout career; co-authored Airbnb's internal feature store library.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "MLOps / Model Deployment",
+          "evidence": "Owned MLflow experiment tracking and model registry at Airbnb; deployed production models via KFServing on Kubernetes handling 10K+ predictions/sec.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Experiment Design / A/B Testing",
+          "evidence": "Designed 20+ A/B experiments using Airbnb's Minerva experimentation platform; published internal case study on variance reduction techniques.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "SQL / Database Querying",
+          "evidence": "Advanced Hive and Spark SQL at Airbnb; Presto SQL at LinkedIn for feature extraction across billion-row event tables.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Data Engineering",
+          "evidence": "Built Airflow DAGs for feature engineering pipelines refreshing 200+ features daily; collaborated with data engineering team on platform design.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Data Visualization",
+          "evidence": "Tableau dashboards for Airbnb supply team tracking 15 KPIs; custom Plotly visualizations for model explainability reports shared with product leadership.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Deep Learning / Neural Networks",
+          "evidence": "Completed fast.ai and Coursera Deep Learning Specialization; no production neural network or NLP deployment documented.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 10,
+          "skill": "Cloud Platforms",
+          "evidence": "AWS (SageMaker, S3, Redshift) primary cloud; GCP mentioned only as 'familiar' — potential gap if role requires GCP-native stack.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Desired",
+          "category": "technical"
+        },
+        {
+          "rank": 11,
+          "skill": "Problem Sensitivity",
+          "evidence": "Noticed that Airbnb's price model was systematically underpricing rural listings — flagged a $4M annual revenue opportunity to product leadership.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Deductive Reasoning",
+          "evidence": "Root-caused a 15% CTR drop in LinkedIn's feed ranking to a feature distribution shift post-data-pipeline migration; resolved within 48 hours.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 13,
+          "skill": "Oral Expression",
+          "evidence": "Presented data science roadmap quarterly to Airbnb's VP of Supply; mentored 2 junior data scientists in causal inference methodology.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Master's or Ph.D. in Statistics, Mathematics, Computer Science, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "M.S. Applied Mathematics, Stanford University, 2020"
+        },
+        {
+          "requirement": "4+ years applied machine learning or data science experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "5 years across LinkedIn (2020–2022) and Airbnb (2022–present)"
+        },
+        {
+          "requirement": "Proficiency in Python and at least one ML framework (PyTorch or TensorFlow)",
+          "met": true,
+          "level": "Required",
+          "evidence": "Python primary; scikit-learn, XGBoost, LightGBM in production; PyTorch in coursework"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-07",
+      "jobId": "job-data-sci",
+      "overallScore": 55,
+      "skillsScore": 48,
+      "experienceScore": 62,
+      "educationScore": 65,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 4,
+      "technicalSkillsTotal": 10,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 2,
+      "educationTotal": 3,
+      "penalties": [
+        "No ML model deployment or MLOps experience",
+        "No deep learning framework usage documented"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "4 years data analyst experience at Target and Nielsen with strong SQL and business intelligence tooling (Tableau, Power BI)",
+        "Solid Python scripting for data cleaning and EDA; comfortable with pandas, numpy, and matplotlib",
+        "B.S. Statistics demonstrates foundational quantitative grounding; completed Google Data Analytics certificate in 2024",
+        "Cross-functional communication skills: translated data findings into executive presentations at Nielsen for 5+ business units"
+      ],
+      "concerns": [
+        "No production ML model development, training, or deployment — experience is analytics and reporting, not machine learning",
+        "No deep learning, NLP, or PyTorch/TensorFlow usage; cannot fulfill the ML framework requirement",
+        "No data engineering or pipeline ownership; works downstream of established data infrastructure",
+        "No A/B testing design or causal inference — descriptive analytics background, not experimental"
+      ],
+      "whyThisScore": "Carmen Reyes is an experienced data analyst whose SQL, Python scripting, and visualization skills partially satisfy the data science requirements at the analytical layer. However, the core ML competencies — model development, deep learning, MLOps, and experiment design — are absent from her profile. A promotion from analyst to data scientist is plausible with targeted upskilling, but she is not ready for an independent data scientist role at this point.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Machine Learning",
+          "evidence": "Completed Coursera Machine Learning Specialization (Andrew Ng, 2024); no production ML model development or deployment documented.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Statistical Analysis",
+          "evidence": "B.S. Statistics; applied regression and correlation analysis for Nielsen CPG client reporting; primarily descriptive and inferential statistics.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Python Programming",
+          "evidence": "Python scripting for data cleaning, EDA, and automated reporting using pandas and matplotlib; no ML framework or production service usage.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "SQL / Database Querying",
+          "evidence": "Advanced SQL at Target and Nielsen; wrote complex multi-join queries across 50M+ row retail transaction tables; top-quartile skill for this role.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Data Visualization",
+          "evidence": "Tableau and Power BI dashboards deployed to 5 business unit leaders at Nielsen; recognized internally for data storytelling clarity.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "MLOps / Model Deployment",
+          "evidence": "No MLOps or model deployment experience; works in analytics tooling (Tableau, Excel) rather than production ML infrastructure.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Deep Learning / Neural Networks",
+          "evidence": "No deep learning experience documented; Coursera ML certificate covers shallow models only.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Experiment Design / A/B Testing",
+          "evidence": "Analyzed pre/post promotional campaign results at Target; no formal A/B test design, randomization, or statistical power analysis documented.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified a data quality issue in Nielsen's syndicated panel data that was causing systematic undercounting of a $200M product category.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Oral Expression",
+          "evidence": "Delivered monthly data insights presentations to 5 Nielsen business unit leaders; praised in performance reviews for accessibility of technical explanations.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Written Comprehension",
+          "evidence": "Produced detailed analytical reports summarizing complex retail trends for non-technical stakeholders; strong written communication inferred.",
+          "source": "Inferred",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Master's or Ph.D. in Statistics, Mathematics, Computer Science, or related field",
+          "met": false,
+          "level": "Required",
+          "evidence": "B.S. Statistics only; no graduate degree; Google Data Analytics certificate is not equivalent"
+        },
+        {
+          "requirement": "4+ years applied machine learning or data science experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "4 years data analyst experience; does not include ML model development or data science work"
+        },
+        {
+          "requirement": "Proficiency in Python and at least one ML framework (PyTorch or TensorFlow)",
+          "met": false,
+          "level": "Required",
+          "evidence": "Python scripting proficiency confirmed; no ML framework usage in production"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-08",
+      "jobId": "job-data-sci",
+      "overallScore": 31,
+      "skillsScore": 18,
+      "experienceScore": 40,
+      "educationScore": 55,
+      "matchLabel": "Low Match",
+      "technicalSkillsMatched": 2,
+      "technicalSkillsTotal": 10,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Low",
+      "educationMet": 1,
+      "educationTotal": 3,
+      "penalties": [
+        "No machine learning experience",
+        "No Python or ML framework usage",
+        "Background is HR analytics, not data science"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": false,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "6 years workforce analytics at Accenture and IBM HR: built Power BI dashboards tracking headcount, attrition, and DEI metrics across 10,000+ employees",
+        "SQL proficiency for HRIS data extraction and ad-hoc reporting; comfortable with structured query logic",
+        "M.S. Human Resources Management with analytics concentration — quantitative HR background",
+        "Strong stakeholder communication skills; presented workforce insights to C-suite at IBM"
+      ],
+      "concerns": [
+        "No machine learning or predictive modeling experience of any kind — HR dashboards are descriptive analytics only",
+        "No Python, R, PyTorch, or TensorFlow usage; primary tools are Excel, Power BI, and SQL",
+        "No data engineering, pipeline ownership, or cloud ML platform experience",
+        "Applying for a technical data scientist role from a non-technical HR analytics background without evidence of transition steps"
+      ],
+      "whyThisScore": "David Kim's HR analytics background provides adjacent skills in SQL and data visualization but falls substantially short of the data science requirements for this role. He has no ML modeling experience, no Python proficiency beyond basic scripting, and no exposure to the ML frameworks, deployment infrastructure, or experimental design that define a data scientist's core competencies. Like cand-04 for the software role, this is a career pivot without supporting evidence of technical upskilling.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Machine Learning",
+          "evidence": "No machine learning experience; HR analytics role involves descriptive workforce reporting, not predictive modeling.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Python Programming",
+          "evidence": "Basic Python scripts for data cleaning mentioned once in resume; no data science libraries or production Python use documented.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "SQL / Database Querying",
+          "evidence": "Intermediate SQL for HRIS data extraction at Accenture and IBM; joins and aggregations used for workforce headcount reporting.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Data Visualization",
+          "evidence": "Power BI dashboards tracking 15 workforce KPIs for IBM HR leadership; presented to CHRO and C-suite quarterly.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Statistical Analysis",
+          "evidence": "Descriptive statistics and trend analysis for workforce data; no inferential statistics, hypothesis testing, or predictive modeling documented.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified that IBM's voluntary attrition was concentrated in a specific tenure band (2–4 years), prompting a targeted retention intervention program.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 7,
+          "skill": "Oral Expression",
+          "evidence": "Presented workforce analytics quarterly to IBM's CHRO and Executive Committee; recognized for clarity of data storytelling.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 8,
+          "skill": "Information Ordering",
+          "evidence": "Structured IBM's annual workforce planning report across 12 business units; coordinated data collection from 8 HRIS systems.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Master's or Ph.D. in Statistics, Mathematics, Computer Science, or related field",
+          "met": false,
+          "level": "Required",
+          "evidence": "M.S. Human Resources Management — not a quantitative STEM field as specified"
+        },
+        {
+          "requirement": "4+ years applied machine learning or data science experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "6 years HR analytics experience; no machine learning or data science work"
+        },
+        {
+          "requirement": "Proficiency in Python and at least one ML framework (PyTorch or TensorFlow)",
+          "met": false,
+          "level": "Required",
+          "evidence": "Basic Python scripting only; no ML framework usage"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-09",
+      "jobId": "job-rn",
+      "overallScore": 91,
+      "skillsScore": 90,
+      "experienceScore": 94,
+      "educationScore": 88,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 8,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 4,
+      "educationTotal": 4,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "12 years RN experience in ICU and Med-Surg at Mayo Clinic and Cleveland Clinic — elite clinical environments with high-acuity patient populations",
+        "BSN from Johns Hopkins (2013) plus MSN in Clinical Nursing (2018); CCRN (Critical Care RN) certification current through 2027",
+        "Full competency in all 8 technical skill areas: IV therapy, ventilator management, ACLS/BLS, EHR (Epic), medication administration, wound care, patient education, and telemetry monitoring",
+        "Charge nurse experience at Cleveland Clinic: supervised 6 RNs per shift and served as unit resource for clinical protocol compliance"
+      ],
+      "concerns": [
+        "Currently employed at a highly prestigious institution (Mayo Clinic) — motivation for leaving and fit with prospective employer's culture warrants exploration",
+        "MSN may indicate interest in advanced practice (NP/CNS) trajectory — confirm long-term bedside RN commitment"
+      ],
+      "whyThisScore": "Linda Johansson is an elite clinical nurse with 12 years of critical care and med-surg experience at two of the nation's top hospital systems. She satisfies all 8 technical skill requirements at the highest confidence level and demonstrates advanced soft skills through charge nurse leadership and preceptor roles. The near-perfect score reflects full qualification alignment with minimal gaps; the slight deduction reflects uncertainty around her motivation for transition from a prestigious institution.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Patient Assessment",
+          "evidence": "12 years ICU primary nursing at Mayo Clinic; responsible for head-to-toe assessments every 2 hours on mechanically ventilated patients with multi-system organ failure.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Medication Administration",
+          "evidence": "Administered high-alert medications (vasopressors, anticoagulants, insulin drips) per protocol at Mayo Clinic ICU; zero medication errors over 12-year tenure.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Critical Care / IV Therapy",
+          "evidence": "CCRN certified; managed arterial lines, central venous catheters, and CRRT at Cleveland Clinic MICU for 5 years before transitioning to Mayo Clinic.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "EHR Documentation",
+          "evidence": "Epic certified superuser at Cleveland Clinic; trained 12 new nurses on Epic ICU documentation workflows during system rollout.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Ventilator Management",
+          "evidence": "Daily ventilator management for intubated ICU patients at both Mayo Clinic and Cleveland Clinic; participated in ventilator weaning protocol committee.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Wound Care",
+          "evidence": "Certified Wound Care Nurse (CWCN) designation; managed complex Stage III/IV pressure injury care plans for ICU patients.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "ACLS / BLS Certification",
+          "evidence": "ACLS and BLS current; responded as code blue team member 50+ times over career; served as ACLS instructor for unit staff.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Telemetry Monitoring",
+          "evidence": "Continuous cardiac monitoring interpretation throughout ICU career; recognized arrhythmias requiring emergent intervention in 20+ documented cases.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified early sepsis indicators in a post-surgical patient 4 hours before attending physician recognition, enabling early goal-directed therapy.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Oral Expression",
+          "evidence": "Charge nurse at Cleveland Clinic supervising 6 RNs per shift; delivered SBAR handoffs and family education for high-acuity patients daily.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Written Comprehension",
+          "evidence": "MSN in Clinical Nursing (2018); authored clinical protocol updates adopted unit-wide at Cleveland Clinic; strong documentation record throughout career.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Deductive Reasoning",
+          "evidence": "Served as preceptor for 8 new graduate nurses; known for systematic clinical reasoning coaching and evidence-based practice advocacy.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Active RN license in state of employment",
+          "met": true,
+          "level": "Required",
+          "evidence": "Active RN licenses in Minnesota and Ohio; no encumbrances documented"
+        },
+        {
+          "requirement": "BSN or higher degree in Nursing",
+          "met": true,
+          "level": "Required",
+          "evidence": "BSN Johns Hopkins (2013); MSN Clinical Nursing (2018)"
+        },
+        {
+          "requirement": "2+ years acute care RN experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "12 years ICU and Med-Surg at Mayo Clinic and Cleveland Clinic"
+        },
+        {
+          "requirement": "Current ACLS and BLS certification",
+          "met": true,
+          "level": "Required",
+          "evidence": "ACLS and BLS current; ACLS instructor designation at Cleveland Clinic"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-10",
+      "jobId": "job-rn",
+      "overallScore": 86,
+      "skillsScore": 86,
+      "experienceScore": 88,
+      "educationScore": 82,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 7,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 4,
+      "educationTotal": 4,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "8 years Med-Surg and Step-Down RN at Banner Health and HCA Healthcare with consistent high patient satisfaction scores (top 10% unit)",
+        "BSN completed (2017) with current CMSRN (Certified Med-Surg RN) certification; ACLS and BLS current",
+        "Strong patient and family education skills — developed discharge education materials adopted across 3 Banner Health units",
+        "Preceptor for 10+ new graduate RNs; peer mentor program coordinator for Banner's Med-Surg residency cohort"
+      ],
+      "concerns": [
+        "Limited critical care experience — step-down unit but no ICU; ventilator management is observed but not primary responsibility",
+        "No Epic superuser or EHR trainer experience; uses Cerner primarily at HCA Healthcare"
+      ],
+      "whyThisScore": "Marcus Thompson presents a strong Med-Surg nursing profile with 8 years of progressive experience at two major health systems. His CMSRN certification, preceptor history, and patient education contributions reflect a high-performing bedside RN. The gap in ventilator management and limited ICU exposure prevent a top-tier score, but his breadth across 7 of 8 technical skill areas and strong soft skills profile make him a clear Strong Match for a Med-Surg or Step-Down RN opening.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Patient Assessment",
+          "evidence": "8 years Med-Surg/Step-Down primary nursing; responsible for full head-to-toe assessments on 5–6 patient assignments per shift at Banner Health.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Medication Administration",
+          "evidence": "Administered complex medication regimens including anticoagulation, insulin protocols, and IV antibiotics; unit medication safety champion at Banner Health.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Critical Care / IV Therapy",
+          "evidence": "Step-Down unit required central line and arterial line monitoring; IV therapy competency verified annually; no primary ICU responsibility.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "EHR Documentation",
+          "evidence": "Cerner proficient at HCA; completed Banner Health Epic transition training; not an Epic superuser but competent user.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Wound Care",
+          "evidence": "Managed post-surgical wound care and pressure injury prevention programs; authored wound care protocol update adopted across 3 Banner Health units.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "ACLS / BLS Certification",
+          "evidence": "ACLS and BLS current; responded to rapid response team calls in Step-Down capacity; not a code team primary responder.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Telemetry Monitoring",
+          "evidence": "Step-Down unit required continuous telemetry monitoring; completed arrhythmia recognition course with 95% proficiency score.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Ventilator Management",
+          "evidence": "Observed ventilator management in adjacent ICU during float shifts; no primary ventilator responsibility documented.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "Developed and delivered discharge education materials adopted unit-wide; peer mentor coordinator for 10+ new graduate RN residency cohort.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Recognized early signs of pulmonary embolism in a post-hip-replacement patient overnight — initiated rapid response that prevented respiratory failure.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Written Comprehension",
+          "evidence": "Authored wound care and discharge education protocols; reads and interprets complex care plans and physician orders accurately.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Information Ordering",
+          "evidence": "Coordinated complex discharge planning for 20+ patients per month involving multiple ancillary services — pharmacy, PT, OT, case management.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Active RN license in state of employment",
+          "met": true,
+          "level": "Required",
+          "evidence": "Active RN license in Arizona; compact license applicable to multiple states"
+        },
+        {
+          "requirement": "BSN or higher degree in Nursing",
+          "met": true,
+          "level": "Required",
+          "evidence": "BSN, Grand Canyon University, 2017"
+        },
+        {
+          "requirement": "2+ years acute care RN experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "8 years acute care Med-Surg and Step-Down experience"
+        },
+        {
+          "requirement": "Current ACLS and BLS certification",
+          "met": true,
+          "level": "Required",
+          "evidence": "ACLS and BLS certifications current through 2027"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-11",
+      "jobId": "job-rn",
+      "overallScore": 64,
+      "skillsScore": 60,
+      "experienceScore": 62,
+      "educationScore": 78,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 5,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 4,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 3,
+      "educationTotal": 4,
+      "penalties": [
+        "No critical care or ICU experience"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "4 years Ambulatory/Outpatient RN at Dignity Health — strong patient education and chronic disease management skills",
+        "BSN from UCLA (2021); current BLS certification; completing ACLS certification course (scheduled completion April 2026)",
+        "Bilingual (Arabic/English) with cultural competency in Middle Eastern patient populations — valuable in diverse urban health system",
+        "Medication administration and wound care competencies well-documented across outpatient surgical and oncology clinic settings"
+      ],
+      "concerns": [
+        "No acute care inpatient experience — entire nursing career is outpatient/ambulatory; significant acuity gap for hospital bedside role",
+        "ACLS not yet current — completing course in April 2026; most acute care positions require current certification at hire",
+        "No telemetry monitoring, ventilator management, or critical care IV therapy experience",
+        "No Epic EHR experience; uses Athenahealth in outpatient setting — transition to inpatient EHR workflows required"
+      ],
+      "whyThisScore": "Fatima Al-Rashid holds a BSN, valid RN license, and solid outpatient nursing skills, but her entire 4-year career is in ambulatory settings. The transition to inpatient acute care is a meaningful clinical gap: she lacks telemetry experience, critical care IV therapy, ventilator management, and inpatient EHR workflows. Her ACLS is also pending. These gaps are learnable but require structured transition support, making this a conditional Partial Match for an acute care RN role.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Patient Assessment",
+          "evidence": "4 years outpatient nursing assessments across oncology and surgical clinic patients; scope differs from inpatient acuity and monitoring demands.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Medication Administration",
+          "evidence": "Administered IV chemotherapy agents, immunotherapy, and post-surgical medications at Dignity Health oncology clinic; strong oral and IV medication competency.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Critical Care / IV Therapy",
+          "evidence": "IV therapy in outpatient infusion context only; no arterial line, central line, or high-acuity critical care IV therapy experience.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "EHR Documentation",
+          "evidence": "Athenahealth proficient in outpatient setting; no Epic or inpatient EHR experience documented.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 4,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Wound Care",
+          "evidence": "Post-surgical wound assessments and dressing changes at Dignity Health surgical clinic; outpatient wound care competency well-documented.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "ACLS / BLS Certification",
+          "evidence": "BLS current; ACLS course in progress — scheduled completion April 2026; will not be current at time of most hire decisions.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 4,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Telemetry Monitoring",
+          "evidence": "No telemetry experience; outpatient setting does not include continuous cardiac monitoring.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Ventilator Management",
+          "evidence": "No ventilator experience; outpatient clinic setting does not involve mechanical ventilation.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "Bilingual patient educator (Arabic/English); developed chronic disease management education materials for Middle Eastern patient population at Dignity Health.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified signs of chemotherapy toxicity in an outpatient patient that warranted same-day hospitalization — appropriate escalation decision under ambulatory constraints.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Written Comprehension",
+          "evidence": "Wrote patient care summaries for oncology treatment protocols; reads complex chemotherapy orders and drug interaction references routinely.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Active RN license in state of employment",
+          "met": true,
+          "level": "Required",
+          "evidence": "Active RN license in California"
+        },
+        {
+          "requirement": "BSN or higher degree in Nursing",
+          "met": true,
+          "level": "Required",
+          "evidence": "BSN, UCLA School of Nursing, 2021"
+        },
+        {
+          "requirement": "2+ years acute care RN experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "4 years nursing experience but all outpatient/ambulatory — no inpatient acute care"
+        },
+        {
+          "requirement": "Current ACLS and BLS certification",
+          "met": false,
+          "level": "Required",
+          "evidence": "BLS current; ACLS in progress — not yet current"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-12",
+      "jobId": "job-rn",
+      "overallScore": 58,
+      "skillsScore": 55,
+      "experienceScore": 55,
+      "educationScore": 72,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 4,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 4,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 3,
+      "educationTotal": 4,
+      "penalties": [
+        "LPN-to-RN transition — limited RN scope experience (6 months as RN)",
+        "No critical care or advanced IV therapy as RN"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": false,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "BSN completed December 2025 (LPN-to-RN bridge program); active RN license obtained January 2026 — shows strong initiative and career commitment",
+        "5 years LPN experience in Long-Term Care and Skilled Nursing — deep comfort with medication administration, wound care, and patient education",
+        "BLS current; ACLS enrolled and scheduled for completion June 2026",
+        "Compassionate patient communication style recognized in patient satisfaction surveys (top 15% unit rating at Kindred Healthcare)"
+      ],
+      "concerns": [
+        "Only 3 months of RN practice at time of application — insufficient independent RN acute care experience for a standard hire",
+        "LPN-to-RN bridge background means acute care inpatient nursing skills (telemetry, critical care IV, ventilator) are theoretical rather than practical",
+        "No Epic EHR experience; used PointClickCare (LTC-focused) throughout LPN career",
+        "ACLS not yet current — disqualifying for many acute care positions pending completion in June 2026"
+      ],
+      "whyThisScore": "Robert Nguyen demonstrates admirable professional growth — completing an LPN-to-RN bridge BSN program while working full-time shows strong dedication. However, with only 3 months of RN experience, he is too early in his RN career to fully satisfy acute care requirements. His LPN skill base covers medication administration, wound care, and patient education well, but the critical care competencies required for inpatient nursing — telemetry, advanced IV therapy, ventilator management — have not yet been developed in his RN scope.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Patient Assessment",
+          "evidence": "5 years LPN patient assessment in LTC; RN-level head-to-toe assessment competency developing — 3 months acute care RN at Kindred transitional hospital.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Medication Administration",
+          "evidence": "Medication administration proficiency developed over 5 years as LPN; passes medications for 20+ patients per shift without incident record.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Wound Care",
+          "evidence": "Wound care competency well-developed in LTC/SNF setting; managed Stage II-III pressure injuries, surgical wounds, and diabetic foot ulcers over 5-year LPN career.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "EHR Documentation",
+          "evidence": "PointClickCare proficient from LTC setting; no Epic or inpatient EHR experience; transitional hospital uses Meditech — currently learning.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "ACLS / BLS Certification",
+          "evidence": "BLS current; ACLS scheduled June 2026 — gap at time of application for acute care positions requiring current certification.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 3,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Critical Care / IV Therapy",
+          "evidence": "Basic IV therapy competency from LPN and new RN experience; no central line, arterial line, or high-acuity critical care IV therapy.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Telemetry Monitoring",
+          "evidence": "No telemetry experience; LTC and transitional care settings do not include continuous cardiac monitoring.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Ventilator Management",
+          "evidence": "No ventilator experience; LTC and SNF settings involve tracheostomy care but not mechanical ventilation management.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "Patient satisfaction top 15% at Kindred Healthcare; recognized for compassionate family communication during end-of-life care discussions.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified subtle deterioration in an LTC resident that led to early sepsis intervention; praised by charge nurse for clinical awareness.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Information Ordering",
+          "evidence": "Coordinated care plans for 20+ LTC residents per shift involving multiple disciplines: physicians, PT, OT, dietary, social work.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Active RN license in state of employment",
+          "met": true,
+          "level": "Required",
+          "evidence": "Active RN license in Texas obtained January 2026"
+        },
+        {
+          "requirement": "BSN or higher degree in Nursing",
+          "met": true,
+          "level": "Required",
+          "evidence": "BSN, WGU LPN-to-RN Bridge Program, December 2025"
+        },
+        {
+          "requirement": "2+ years acute care RN experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "3 months RN experience; 5 years LPN experience does not substitute for RN acute care requirement"
+        },
+        {
+          "requirement": "Current ACLS and BLS certification",
+          "met": false,
+          "level": "Required",
+          "evidence": "BLS current; ACLS scheduled June 2026 — not current at application"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-13",
+      "jobId": "job-fin-analyst",
+      "overallScore": 93,
+      "skillsScore": 93,
+      "experienceScore": 95,
+      "educationScore": 90,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 8,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 4,
+      "educationTotal": 4,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "CFA Charterholder (2022) and MBA Finance from INSEAD (2019) — top-tier credentials for financial analyst roles",
+        "7 years corporate finance and FP&A at Goldman Sachs and L'Oréal Group, with direct ownership of DCF models, LBO analysis, and budget variance reporting",
+        "Advanced Excel and Python financial modeling; built automated P&L forecasting tool at L'Oréal reducing monthly close cycle by 3 days",
+        "M&A transaction experience: supported 4 buy-side acquisitions at Goldman Sachs totaling $2.3B in deal value; deep due diligence and valuation expertise"
+      ],
+      "concerns": [
+        "Current base compensation at Goldman Sachs may exceed budget for this role — compensation alignment should be confirmed early",
+        "Multinational corporate background may require adjustment to a smaller, faster-moving organization context"
+      ],
+      "whyThisScore": "Claire Dubois is an exceptionally well-credentialed financial analyst: a CFA Charterholder with an INSEAD MBA, 7 years of investment banking and corporate finance experience, and proficiency across all 8 technical skill requirements. Her Python-driven financial modeling, M&A transaction background, and FP&A ownership at a global CPG company represent a full match to the role's demands. The score reflects near-perfect alignment with minor uncertainty around compensation fit.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Financial Modeling",
+          "evidence": "Built DCF and LBO models for 4 M&A transactions at Goldman Sachs; automated 3-statement P&L model at L'Oréal cutting monthly close by 3 days.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Variance Analysis / FP&A",
+          "evidence": "Owned monthly budget-to-actual variance reporting for L'Oréal's $500M North America business; presented findings to CFO and business unit GMs.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Excel / Spreadsheet Modeling",
+          "evidence": "Advanced Excel including Power Query, Power Pivot, and VBA macros; co-authored L'Oréal's Excel modeling standards guide adopted by 30-person finance team.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "GAAP / Financial Reporting",
+          "evidence": "Prepared GAAP-compliant financial statements and MD&A narratives for L'Oréal's North America subsidiary reporting to parent entity; CFA curriculum covers IFRS/GAAP extensively.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Valuation Methods",
+          "evidence": "CFA Charterholder — mastery of DCF, comparable company, precedent transaction, and LBO valuation methodologies; applied to 4 live transactions at Goldman Sachs.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Python / Data Analysis",
+          "evidence": "Python (pandas, numpy) for financial data automation at L'Oréal; built automated reporting pipeline connecting SAP data to Excel dashboards.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "ERP Systems (SAP / Oracle)",
+          "evidence": "SAP S/4HANA power user at L'Oréal for GL extraction, cost center reporting, and intercompany reconciliations.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Data Visualization / BI Tools",
+          "evidence": "Power BI dashboards for L'Oréal executive finance reporting; Tableau used at Goldman Sachs for deal pipeline tracking.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Deductive Reasoning",
+          "evidence": "Identified a $12M accounting error in an acquisition target's working capital schedule during due diligence, renegotiating purchase price adjustment.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Written Comprehension",
+          "evidence": "Authored Goldman Sachs investment memos and CIM narratives; L'Oréal CFO commentary for board presentations; strong written output throughout career.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Oral Expression",
+          "evidence": "Presented financial analysis to C-suite at L'Oréal and Goldman Sachs managing directors; bilingual presentations (French/English) to Paris HQ.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Problem Sensitivity",
+          "evidence": "Proactively flagged a revenue recognition timing issue in L'Oréal's trade promotion accruals, preventing a material restatement risk.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Finance, Accounting, Economics, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.Sc. Economics, Sciences Po Paris (2015); MBA Finance, INSEAD (2019)"
+        },
+        {
+          "requirement": "3+ years financial analysis or FP&A experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "7 years across Goldman Sachs (2019–2022) and L'Oréal Group (2022–present)"
+        },
+        {
+          "requirement": "Advanced Excel and financial modeling proficiency",
+          "met": true,
+          "level": "Required",
+          "evidence": "Advanced Excel with VBA; co-authored firm's modeling standards; built 3-statement automated model"
+        },
+        {
+          "requirement": "CPA, CFA, or relevant professional certification preferred",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "CFA Charterholder since 2022"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-14",
+      "jobId": "job-fin-analyst",
+      "overallScore": 88,
+      "skillsScore": 89,
+      "experienceScore": 92,
+      "educationScore": 82,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 7,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 3,
+      "educationTotal": 4,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "6 years FP&A and corporate finance at JPMorgan Chase and Amazon: full ownership of annual operating plan, monthly forecasting, and business unit P&L",
+        "CPA license (active, Illinois) plus B.S. Accounting from Howard University — rigorous GAAP/technical accounting foundation",
+        "Excel power user with Power Query and Power Pivot; co-led Amazon's FP&A tooling migration to Anaplan reducing planning cycle by 40%",
+        "Strong stakeholder influencing skills: presented financial recommendations to Amazon VP-level business leaders with direct budget impact"
+      ],
+      "concerns": [
+        "No CFA or investment banking background — valuation methodology depth is FP&A-oriented rather than M&A/capital markets focused",
+        "Python listed as beginner — limited data analysis automation capability compared to top candidates",
+        "No ERP exposure beyond Oracle Financials; no SAP experience"
+      ],
+      "whyThisScore": "Jamal Washington is a highly capable financial analyst whose CPA credential, 6 years of FP&A ownership at two major corporations, and Anaplan implementation experience make him a strong match for most financial analyst roles. His gap in advanced valuation methods and Python proficiency prevents a perfect technical score, but his GAAP depth, business partnering skills, and track record of improving planning processes are compelling differentiators.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Variance Analysis / FP&A",
+          "evidence": "Owned Amazon's $2B Consumer division monthly P&L; led annual operating plan consolidation across 8 business units at JPMorgan Chase.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "GAAP / Financial Reporting",
+          "evidence": "CPA license (active, Illinois); prepared GAAP financial statements and audit workpapers at JPMorgan; Amazon financial close compliance oversight.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Excel / Spreadsheet Modeling",
+          "evidence": "Advanced Excel with Power Query; built dynamic headcount planning model used by 12 Amazon finance business partners during annual planning.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Financial Modeling",
+          "evidence": "Built sensitivity and scenario models for Amazon capital allocation decisions; 3-statement financial models for JPMorgan client advisory.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "ERP Systems (SAP / Oracle)",
+          "evidence": "Oracle Financials proficient at JPMorgan; Anaplan implementation lead at Amazon; no SAP experience.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Data Visualization / BI Tools",
+          "evidence": "Power BI dashboards for Amazon senior leadership weekly business reviews; Tableau at JPMorgan for portfolio risk reporting.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Valuation Methods",
+          "evidence": "Exposure to DCF and comparable company analysis in JPMorgan advisory context; not primary valuation practitioner — FP&A-oriented background.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Python / Data Analysis",
+          "evidence": "Python listed as 'beginner' on resume; completed one internal Amazon Python for Finance course; no production automation scripting documented.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Deductive Reasoning",
+          "evidence": "Identified a $8M accrual understatement during Amazon's Q3 close by cross-referencing vendor contracts against GL entries — prevented restatement.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Oral Expression",
+          "evidence": "Presented financial analysis and recommendations to Amazon VP-level stakeholders in bi-weekly business reviews; known for clear, concise financial storytelling.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Problem Sensitivity",
+          "evidence": "Flagged a structural margin compression trend in Amazon's logistics cost base 6 months before it appeared in earnings — triggered a cost reduction initiative.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Finance, Accounting, Economics, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Accounting, Howard University, 2019"
+        },
+        {
+          "requirement": "3+ years financial analysis or FP&A experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "6 years across JPMorgan Chase (2019–2022) and Amazon (2022–present)"
+        },
+        {
+          "requirement": "Advanced Excel and financial modeling proficiency",
+          "met": true,
+          "level": "Required",
+          "evidence": "Advanced Excel with Power Query/Pivot; dynamic planning models used by 12 finance business partners"
+        },
+        {
+          "requirement": "CPA, CFA, or relevant professional certification preferred",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "CPA license, active, Illinois Board of Examiners"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-15",
+      "jobId": "job-fin-analyst",
+      "overallScore": 60,
+      "skillsScore": 56,
+      "experienceScore": 60,
+      "educationScore": 72,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 4,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 2,
+      "educationTotal": 4,
+      "penalties": [
+        "No financial modeling or valuation experience",
+        "No professional certification (CPA/CFA)"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "3 years accounts payable and general ledger accounting at Deloitte and a regional CPA firm — solid GAAP fundamentals",
+        "B.S. Finance from University of Michigan; currently enrolled in CFA Level I (exam scheduled June 2026)",
+        "Advanced Excel competency with VLOOKUP, pivot tables, and basic financial reporting — functional for standard analysis tasks",
+        "Detail-oriented documentation habits; zero reconciliation errors over 3-year tenure at Deloitte AP team"
+      ],
+      "concerns": [
+        "No financial modeling, DCF valuation, or FP&A forecasting experience — transactional accounting background, not analytical",
+        "No Python, Power BI, Tableau, or data visualization skills; limited to Excel",
+        "No ERP system experience beyond QuickBooks and basic SAP data entry",
+        "CFA Level I not yet completed; no professional certification at time of application"
+      ],
+      "whyThisScore": "Nina Patel has a solid GAAP accounting foundation but her experience is transactional (AP, GL reconciliation) rather than analytical (modeling, forecasting, valuation). The financial analyst role requires a step up in both technical depth and analytical scope that her current background does not yet support. She is a viable candidate for a Staff Accountant or Junior Analyst role but would require 1–2 years of targeted FP&A exposure before being fully productive in this position.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Financial Modeling",
+          "evidence": "No financial modeling experience; role has been accounts payable and GL reconciliation, not analytical modeling or forecasting.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "GAAP / Financial Reporting",
+          "evidence": "3 years GAAP-compliant journal entries, month-end close, and account reconciliation at Deloitte; strong technical accounting foundation.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Excel / Spreadsheet Modeling",
+          "evidence": "Advanced Excel with pivot tables, VLOOKUP, and basic financial report templates; no Power Query, VBA, or dynamic modeling experience.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Variance Analysis / FP&A",
+          "evidence": "Prepared budget-to-actual schedules for department cost centers at Deloitte; limited to reporting, not forecasting or analysis.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 4,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Valuation Methods",
+          "evidence": "CFA Level I coursework covers valuation theory; no applied valuation work in any professional role.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "ERP Systems (SAP / Oracle)",
+          "evidence": "Basic SAP data entry for Deloitte AP processing; no analytical ERP usage, reporting, or configuration experience.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Python / Data Analysis",
+          "evidence": "No Python or data analysis tooling experience beyond Excel.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Data Visualization / BI Tools",
+          "evidence": "No Tableau, Power BI, or BI tooling experience; Excel charts only.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Written Comprehension",
+          "evidence": "Documented AP exception processes and reconciliation procedures at Deloitte; clear procedural writing inferred from zero-error track record.",
+          "source": "Inferred",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified a duplicate payment issue in Deloitte's vendor AP ledger, recovering $45K in overpayments before month-end close.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Information Ordering",
+          "evidence": "Managed month-end close checklist for 12 GL accounts simultaneously; strong process discipline inferred from error-free record.",
+          "source": "Inferred",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Finance, Accounting, Economics, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Finance, University of Michigan, 2022"
+        },
+        {
+          "requirement": "3+ years financial analysis or FP&A experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "3 years accounting experience (AP/GL); not FP&A or financial analysis work"
+        },
+        {
+          "requirement": "Advanced Excel and financial modeling proficiency",
+          "met": false,
+          "level": "Required",
+          "evidence": "Intermediate Excel only; no dynamic financial modeling experience"
+        },
+        {
+          "requirement": "CPA, CFA, or relevant professional certification preferred",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "CFA Level I in progress — not yet earned"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-16",
+      "jobId": "job-fin-analyst",
+      "overallScore": 62,
+      "skillsScore": 54,
+      "experienceScore": 65,
+      "educationScore": 80,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 4,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 4,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 3,
+      "educationTotal": 4,
+      "penalties": [
+        "Limited financial modeling depth — primarily audit/compliance background"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "CPA license (active, New York) — strongest professional credential for financial reporting and GAAP compliance work",
+        "B.S. Accounting, NYU Stern (2020) plus 4 years public accounting at EY — exceptional technical accounting pedigree",
+        "GAAP and IFRS mastery from audit engagement work across 12+ public company clients in financial services sector",
+        "Analytical mindset demonstrated through audit risk assessment frameworks applied to complex revenue recognition scenarios"
+      ],
+      "concerns": [
+        "No financial modeling, DCF, or forecasting experience — audit background is compliance/assurance oriented, not forward-looking analytical",
+        "No FP&A or business partnering experience; limited exposure to budget variance analysis or scenario planning",
+        "Python, Power BI, and advanced data analysis tools not mentioned; primarily Excel and audit-specific tooling (TeamMate, CaseWare)",
+        "No M&A, valuation, or capital markets experience — gap for roles requiring investment analysis orientation"
+      ],
+      "whyThisScore": "Evan Murphy's CPA and Big Four audit background give him a world-class technical accounting foundation, but a Financial Analyst role requires a different set of applied skills: forward-looking modeling, forecasting, scenario analysis, and business partnering. His GAAP mastery and analytical discipline are genuine assets, but he would need significant reorientation from attestation work to FP&A-style analysis. This makes him a conditional Partial Match — strong on compliance-oriented aspects of the role, underdeveloped on the modeling and insights-generation side.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "GAAP / Financial Reporting",
+          "evidence": "CPA; 4 years external audit at EY covering financial statements of 12 public company clients; deep GAAP and IFRS technical knowledge.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Excel / Spreadsheet Modeling",
+          "evidence": "Advanced Excel for audit workpapers and analytical procedures; not financial modeling per se — formula-driven reconciliation and tick-mark review.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Variance Analysis / FP&A",
+          "evidence": "Performed analytical procedures comparing year-over-year financial results for audit purposes; not FP&A forecasting or business-facing variance analysis.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 4,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Financial Modeling",
+          "evidence": "No financial modeling experience documented; audit work does not include building forecast or valuation models.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Valuation Methods",
+          "evidence": "Audited goodwill impairment tests and purchase price allocations at EY; understands valuation mechanics but does not build valuation models.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 4,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "ERP Systems (SAP / Oracle)",
+          "evidence": "Extracted SAP and Oracle data for audit testing at EY client engagements; not a power user or analyst in either system.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 4,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Data Visualization / BI Tools",
+          "evidence": "No Tableau or Power BI; audit-specific tools (TeamMate+, CaseWare) only; limited data visualization capability.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Python / Data Analysis",
+          "evidence": "No Python; used IDEA data analytics software for audit sampling — adjacent but not transferable to FP&A data analysis.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Deductive Reasoning",
+          "evidence": "Identified a material revenue recognition error at an EY client (software company) under ASC 606, leading to a restatement of prior period financials.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Written Comprehension",
+          "evidence": "Wrote audit memoranda documenting complex accounting positions for EY engagement quality reviewer; strong technical writing throughout audit career.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified a control deficiency in a client's revenue recognition process that led to a material weakness finding; protected client from potential SEC inquiry.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Information Ordering",
+          "evidence": "Managed audit workplan across 4 concurrent engagement clients at EY; coordinated deliverables for 8-person audit teams against tight filing deadlines.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Finance, Accounting, Economics, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Accounting, NYU Stern School of Business, 2020"
+        },
+        {
+          "requirement": "3+ years financial analysis or FP&A experience",
+          "met": false,
+          "level": "Required",
+          "evidence": "4 years public accounting/audit experience — not FP&A or financial analysis"
+        },
+        {
+          "requirement": "Advanced Excel and financial modeling proficiency",
+          "met": false,
+          "level": "Required",
+          "evidence": "Advanced Excel for audit purposes only; no financial modeling background"
+        },
+        {
+          "requirement": "CPA, CFA, or relevant professional certification preferred",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "CPA, active, New York State"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-17",
+      "jobId": "job-mkt-mgr",
+      "overallScore": 91,
+      "skillsScore": 92,
+      "experienceScore": 93,
+      "educationScore": 85,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 7,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 4,
+      "educationTotal": 4,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "8 years B2B marketing at Salesforce and HubSpot: owned $4M annual demand gen budget with direct accountability for pipeline contribution and CAC targets",
+        "MBA Marketing from Wharton (2019); Google Ads certified; HubSpot Marketing Hub certified — strong formal and practical credential stack",
+        "Led team of 5 marketing specialists at HubSpot; managed agency relationships for paid media, content, and events programs",
+        "Cross-channel campaign orchestration expertise: SEO, SEM, email nurture, ABM, and field events producing 40% of HubSpot segment pipeline"
+      ],
+      "concerns": [
+        "Salesforce/HubSpot B2B SaaS experience — if the role targets B2C or a very different vertical, go-to-market translation may be required",
+        "Limited OOH, TV, or traditional media experience; digital-native marketing background only"
+      ],
+      "whyThisScore": "Sofia Andersen is a highly accomplished B2B marketing manager with 8 years of direct campaign ownership, budget responsibility, and team leadership at two of the most respected marketing-led SaaS companies in the industry. Her Wharton MBA, hands-on digital channel mastery, and track record of pipeline contribution make her a near-ideal fit for a Marketing Manager role. The single gap — limited traditional/brand media experience — reflects her digital-first background rather than a skill deficiency.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Campaign Management",
+          "evidence": "Managed 20+ integrated marketing campaigns annually at HubSpot; campaigns contributed 40% of SMB segment pipeline totaling $15M in influenced revenue.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Digital Marketing / SEO / SEM",
+          "evidence": "Google Ads certified; managed $1.2M SEM budget at HubSpot with 3.2x ROAS; led SEO program growing organic traffic 65% YoY.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Marketing Analytics",
+          "evidence": "Salesforce CRM and HubSpot analytics for full-funnel attribution; built CAC/LTV dashboard used by VP Marketing for quarterly board reporting.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Content Strategy",
+          "evidence": "Led content calendar and editorial strategy for HubSpot SMB segment blog generating 80K monthly organic sessions; managed 3 agency content partners.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Budget Management",
+          "evidence": "Owned $4M annual demand generation budget at HubSpot with monthly forecast-to-actual variance reporting to CFO; under budget 2 of 3 years.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Marketing Automation / CRM",
+          "evidence": "HubSpot Marketing Hub certified superuser; built 40+ automated email nurture sequences; Salesforce Marketing Cloud used at Salesforce for enterprise segment.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Brand Management",
+          "evidence": "Maintained brand voice and visual guidelines across all SMB segment content; co-led HubSpot's brand refresh project for SMB go-to-market materials.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Traditional / Offline Media",
+          "evidence": "No significant OOH, TV, print, or traditional media experience; career is digital-native.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "Presented quarterly marketing performance reviews to HubSpot's Executive Committee; keynote presenter at HubSpot's INBOUND conference (2024, 2025).",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified declining MQL quality 2 quarters before sales team raised it formally; redesigned lead scoring model and improved SQL conversion rate by 22%.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Written Comprehension",
+          "evidence": "MBA thesis on B2B demand generation optimization published in Journal of Marketing Research; extensive content strategy and copy review throughout career.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Deductive Reasoning",
+          "evidence": "Used attribution modeling to identify that field events had 2x the pipeline impact per dollar of SEM; reallocated $400K budget accordingly.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Marketing, Business, Communications, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.A. Communications, University of Copenhagen (2015); MBA Marketing, Wharton (2019)"
+        },
+        {
+          "requirement": "5+ years marketing experience with at least 2 years managing campaigns",
+          "met": true,
+          "level": "Required",
+          "evidence": "8 years marketing experience; campaign ownership throughout at Salesforce and HubSpot"
+        },
+        {
+          "requirement": "Experience managing marketing budgets of $500K+",
+          "met": true,
+          "level": "Required",
+          "evidence": "$4M annual demand gen budget owned at HubSpot"
+        },
+        {
+          "requirement": "Team management or cross-functional leadership experience",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "Led team of 5 marketing specialists at HubSpot; managed 3 external agency relationships"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-18",
+      "jobId": "job-mkt-mgr",
+      "overallScore": 86,
+      "skillsScore": 87,
+      "experienceScore": 88,
+      "educationScore": 82,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 7,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 3,
+      "educationTotal": 4,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "6 years B2C marketing at Nike Digital and Spotify: owned consumer brand campaigns reaching 50M+ users; deep social media, influencer, and content marketing expertise",
+        "Managed $2M+ annual social media and influencer marketing budget at Spotify with measurable engagement and streaming conversion outcomes",
+        "Led cross-functional team of 6 creatives, analysts, and media buyers at Nike Digital; strong people management and creative direction track record",
+        "B.S. Marketing, University of Southern California (2019); Meta Blueprint Certified; Google Analytics 4 certified"
+      ],
+      "concerns": [
+        "B2C-only background; limited exposure to B2B demand gen, ABM, or sales-marketing alignment if the role is B2B-focused",
+        "No marketing automation platform experience (HubSpot, Marketo, Pardot) — B2C CRM only",
+        "Budget ownership has been social/influencer-specific; no full P&L or cross-channel budget responsibility"
+      ],
+      "whyThisScore": "Darius Jackson brings strong B2C marketing management skills from two high-profile consumer brands, with direct team leadership, significant budget ownership, and certified digital channel expertise. His gaps are in B2B marketing mechanics and marketing automation platforms, which may or may not matter depending on the specific role context. His creative campaign track record, team leadership, and consumer insights capabilities are genuine differentiators for consumer-facing or brand-oriented Marketing Manager roles.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Campaign Management",
+          "evidence": "Directed Spotify's Gen Z audience campaign across TikTok, Instagram, and YouTube — 18M views, 2.3M new app downloads attributable to campaign.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Digital Marketing / SEO / SEM",
+          "evidence": "Meta Blueprint certified; managed $800K paid social budget at Spotify with 4.1x ROAS; Google Analytics 4 certified; SEM experience limited to remarketing.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Content Strategy",
+          "evidence": "Owned Nike Digital's athlete content series strategy — 12-episode YouTube series generating 25M views and featured in AdWeek.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Marketing Analytics",
+          "evidence": "GA4, Looker Studio, and Sprinklr for campaign performance measurement at Spotify; built influencer ROI attribution framework adopted by brand team.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Brand Management",
+          "evidence": "Nike Digital brand guardian for athlete content; enforced brand guidelines across 15 external creative partners; led brand campaign post-mortems.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Budget Management",
+          "evidence": "Owned $2.2M social and influencer budget at Spotify; Nike Digital creative production budget of $800K; no cross-channel P&L ownership.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Marketing Automation / CRM",
+          "evidence": "Salesforce CRM for influencer relationship management at Nike; no HubSpot, Marketo, or B2B marketing automation platform experience.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 4,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Traditional / Offline Media",
+          "evidence": "Collaborated with Nike's traditional media team on integrated OOH and event campaigns; not primary owner of offline media strategy.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "Presented Spotify campaign strategies to CMO and executive team; represented Spotify at Cannes Lions industry panel on creator marketing.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified brand safety risk in an influencer partnership one week before launch; negotiated contract amendment preventing a reputational incident.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Deductive Reasoning",
+          "evidence": "Analyzed Spotify campaign data showing podcast listeners had 3x trial conversion rate vs. music listeners; reallocated $300K to podcast-adjacent influencers.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Marketing, Business, Communications, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Marketing, University of Southern California, 2019"
+        },
+        {
+          "requirement": "5+ years marketing experience with at least 2 years managing campaigns",
+          "met": true,
+          "level": "Required",
+          "evidence": "6 years at Nike Digital (2019–2022) and Spotify (2022–present); campaign ownership throughout"
+        },
+        {
+          "requirement": "Experience managing marketing budgets of $500K+",
+          "met": true,
+          "level": "Required",
+          "evidence": "$2.2M social/influencer budget at Spotify; $800K creative production at Nike Digital"
+        },
+        {
+          "requirement": "Team management or cross-functional leadership experience",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "Led 6-person cross-functional team (creatives, analysts, media buyers) at Nike Digital"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-19",
+      "jobId": "job-mkt-mgr",
+      "overallScore": 59,
+      "skillsScore": 55,
+      "experienceScore": 58,
+      "educationScore": 70,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 4,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 3,
+      "educationTotal": 4,
+      "penalties": [
+        "No P&L or marketing budget ownership",
+        "No team management experience"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": false,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "4 years digital marketing specialist experience at Adobe and a digital agency: strong SEO, SEM, and paid social execution skills",
+        "Google Ads and Meta Blueprint certified; hands-on campaign execution experience across multiple client verticals",
+        "B.S. Marketing, Keio University (2021); strong analytical foundation from working in data-driven digital marketing contexts",
+        "Content creation and social media management proficiency; managed 8 brand social accounts simultaneously at agency"
+      ],
+      "concerns": [
+        "No budget ownership or P&L responsibility — all campaign execution was under manager oversight; no independent financial accountability",
+        "No team management or direct report experience; the Manager role requires leading a team of 3–5 marketers",
+        "No marketing automation platform experience (HubSpot, Marketo) — specialist execution only, not full-funnel orchestration",
+        "No brand strategy, go-to-market planning, or executive stakeholder management experience"
+      ],
+      "whyThisScore": "Yuki Tanaka is a capable digital marketing specialist whose SEO, SEM, and paid social execution skills are strong, but she has not yet developed the management and strategic competencies required for a Marketing Manager role. Without budget ownership, team leadership experience, or exposure to full-funnel marketing strategy, she would need to grow significantly into the position. She is a better fit for a Senior Specialist or Marketing Manager role at a smaller organization that provides these growth opportunities.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Campaign Management",
+          "evidence": "Executed 30+ paid campaigns at Adobe and agency; all under manager oversight — no autonomous campaign P&L or strategy ownership.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Digital Marketing / SEO / SEM",
+          "evidence": "Google Ads and Meta Blueprint certified; executed SEM campaigns with combined $500K managed spend across agency clients; strong technical execution.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Content Strategy",
+          "evidence": "Managed social content calendar for 8 brand accounts; executed content strategy defined by manager — not independent strategy development.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Marketing Analytics",
+          "evidence": "Google Analytics 4 and Adobe Analytics proficient; built campaign performance reports for client-facing agency presentations.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Budget Management",
+          "evidence": "No budget ownership; monitored campaign spend against manager-set budgets but held no financial accountability or forecasting responsibility.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Marketing Automation / CRM",
+          "evidence": "No HubSpot, Marketo, or enterprise CRM experience; used basic email tools (Mailchimp) for agency client newsletters.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Brand Management",
+          "evidence": "Maintained brand voice across social content for 8 client brands; no brand strategy development or brand architecture ownership.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 4,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Traditional / Offline Media",
+          "evidence": "No traditional media experience; digital-only background.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "Client-facing presentations at agency for campaign performance reviews; bilingual (Japanese/English) — valuable for international marketing contexts.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Noticed unusual CTR drop in an Adobe campaign attributable to a creative fatigue pattern; flagged to manager enabling timely creative refresh.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Information Ordering",
+          "evidence": "Managed content calendar and publishing schedule for 8 simultaneous brand accounts without missed deadlines over 2 years.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Marketing, Business, Communications, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Marketing, Keio University, 2021"
+        },
+        {
+          "requirement": "5+ years marketing experience with at least 2 years managing campaigns",
+          "met": false,
+          "level": "Required",
+          "evidence": "4 years marketing experience; campaign execution experience but no campaign ownership"
+        },
+        {
+          "requirement": "Experience managing marketing budgets of $500K+",
+          "met": false,
+          "level": "Required",
+          "evidence": "No budget ownership or financial accountability documented"
+        },
+        {
+          "requirement": "Team management or cross-functional leadership experience",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "No team management or direct report experience"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-20",
+      "jobId": "job-mkt-mgr",
+      "overallScore": 32,
+      "skillsScore": 20,
+      "experienceScore": 38,
+      "educationScore": 55,
+      "matchLabel": "Low Match",
+      "technicalSkillsMatched": 1,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Low",
+      "educationMet": 2,
+      "educationTotal": 4,
+      "penalties": [
+        "No marketing experience of any kind",
+        "No digital marketing, campaign, or analytics skills",
+        "Career transition without supporting evidence (certifications, projects)"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": false,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "8 years K-12 education: exceptional communication and audience-adaptive presentation skills developed across daily classroom instruction",
+        "Curriculum design expertise — structured complex information for diverse learner audiences, a transferable content strategy-adjacent skill",
+        "M.Ed. from Columbia Teachers College (2017); strong educational achievement and scholarly writing ability",
+        "Demonstrated project coordination managing annual school events, parent communications, and cross-department curriculum committees"
+      ],
+      "concerns": [
+        "Zero marketing experience — no campaigns, budgets, digital channels, or analytics tools used in any professional context",
+        "No digital marketing certifications, side projects, freelance marketing work, or portfolio to evidence commitment to this career change",
+        "No marketing automation, CRM, SEO, SEM, or social media management platform experience",
+        "Career transition from education to marketing management (not entry-level) is a very high bar without intermediate stepping-stone experience"
+      ],
+      "whyThisScore": "Amara Osei's education career has built genuinely transferable communication and content design skills, but she has no marketing experience, no digital channel exposure, and no marketing credentials. Applying directly to a Marketing Manager role — which requires budget ownership, team leadership, and campaign expertise — represents a significant overreach relative to her current qualifications. A structured career transition plan (digital marketing certifications, entry-level marketing roles, or a marketing MBA) would substantially improve her candidacy.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Campaign Management",
+          "evidence": "No campaign management experience; teaching career does not involve marketing campaign design, execution, or measurement.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Content Strategy",
+          "evidence": "Curriculum design for K-12 science instruction — structured complex content for diverse learner audiences; not marketing content strategy but transferable cognitive skill.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "Digital Marketing / SEO / SEM",
+          "evidence": "No digital marketing experience; personal social media use only; no professional digital channel management.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Marketing Analytics",
+          "evidence": "Used Google Forms and basic survey tools to measure student learning outcomes; not marketing analytics.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Budget Management",
+          "evidence": "Managed small classroom supply budget ($500/year); not equivalent to marketing budget ownership.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 0,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Oral Expression",
+          "evidence": "8 years daily classroom instruction for audiences of 25–30 students; parent-teacher conferences and school board curriculum presentations — excellent oral communication.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 7,
+          "skill": "Written Comprehension",
+          "evidence": "M.Ed. scholarly thesis and professional curriculum writing throughout teaching career; strong written comprehension and composition inferred.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 8,
+          "skill": "Information Ordering",
+          "evidence": "Designed year-long curriculum scope and sequence for 3 grade levels simultaneously; coordinated cross-department curriculum committee — strong organizational skills.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Marketing, Business, Communications, or related field",
+          "met": false,
+          "level": "Required",
+          "evidence": "B.A. Biology, Spelman College (2015) and M.Ed. Columbia Teachers College (2017) — neither is a marketing or business field"
+        },
+        {
+          "requirement": "5+ years marketing experience with at least 2 years managing campaigns",
+          "met": false,
+          "level": "Required",
+          "evidence": "0 years marketing experience; 8 years K-12 teaching"
+        },
+        {
+          "requirement": "Experience managing marketing budgets of $500K+",
+          "met": false,
+          "level": "Required",
+          "evidence": "No marketing budget experience"
+        },
+        {
+          "requirement": "Team management or cross-functional leadership experience",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "Curriculum committee coordination is not team management in a marketing context"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-21",
+      "jobId": "job-hr-spec",
+      "overallScore": 90,
+      "skillsScore": 91,
+      "experienceScore": 90,
+      "educationScore": 85,
+      "matchLabel": "Strong Match",
+      "technicalSkillsMatched": 8,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 5,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 3,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "7 years HR Specialist and HRBP experience at Marriott International and Cisco: full-cycle recruiting, employee relations, benefits administration, and HRIS management",
+        "PHR certified (HRCI, current through 2027); B.S. Human Resources Management from Cornell ILR School — top-tier HR academic credential",
+        "Workday HRIS superuser at Cisco: implemented Workday Recruiting module for 5,000-person org reducing time-to-fill by 18 days",
+        "Led employee relations investigations at Marriott: resolved 40+ workplace complaints with zero employment litigation over 4-year tenure"
+      ],
+      "concerns": [
+        "Current compensation at Cisco may be above budget given HRBP seniority level — confirm compensation alignment",
+        "Hospitality and tech sector background; may need industry context adjustment for other verticals"
+      ],
+      "whyThisScore": "Rachel Torres is an exceptionally well-rounded HR Specialist with 7 years covering every core HR domain: recruiting, employee relations, benefits, HRIS, compliance, and training. Her PHR certification, Cornell ILR degree, and Workday implementation experience place her in the top tier for this role. The near-perfect score reflects complete technical and experiential alignment; the minor deduction accounts for potential compensation misalignment given her HRBP-level seniority.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Recruiting / Talent Acquisition",
+          "evidence": "Full-cycle recruiting for 200+ roles annually at Cisco; implemented Workday Recruiting reducing average time-to-fill from 52 to 34 days.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Employee Relations",
+          "evidence": "Investigated and resolved 40+ workplace complaints at Marriott over 4 years; zero employment litigation during tenure; trained managers on documentation and progressive discipline.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "HRIS Administration",
+          "evidence": "Workday HRIS superuser and module implementation lead at Cisco; trained 30 HR staff on Workday Recruiting and Core HCM workflows.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Benefits Administration",
+          "evidence": "Managed annual open enrollment for 5,000 Cisco employees; liaison with 8 benefits carriers; resolved 300+ employee benefits inquiries annually.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "HR Compliance / Employment Law",
+          "evidence": "PHR certified; maintained FMLA, ADA, EEO, and FLSA compliance at both employers; conducted I-9 audits and trained managers on leave administration.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Performance Management",
+          "evidence": "Facilitated Cisco's annual performance calibration process across 3 business units; coached managers on goal-setting and development planning.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Training & Development",
+          "evidence": "Designed and delivered 10+ manager training workshops at Marriott on topics including interviewing, performance documentation, and harassment prevention.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "HR Analytics / Reporting",
+          "evidence": "Built monthly workforce dashboards in Workday and Excel for CHRO reporting; tracked headcount, attrition, and time-to-fill KPIs across quarterly business reviews.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "Presented HR program updates to Cisco's executive leadership team; delivered harassment prevention training to 500+ employees across 3 office locations.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified a pattern of manager-level micromanagement behaviors contributing to elevated attrition in one Cisco department — flagged before it became an ER issue.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Written Comprehension",
+          "evidence": "Drafted employee handbooks, HR policy updates, and investigation reports at both Marriott and Cisco; strong HR writing demonstrated throughout career.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 12,
+          "skill": "Information Ordering",
+          "evidence": "Managed concurrent HR project workstreams: open enrollment, HRIS implementation, and ER investigations simultaneously — strong organizational capability.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Human Resources, Business Administration, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Human Resources Management, Cornell University ILR School, 2018"
+        },
+        {
+          "requirement": "3+ years HR Specialist or HRBP experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "7 years across Marriott International (2018–2022) and Cisco (2022–present)"
+        },
+        {
+          "requirement": "PHR, SPHR, or SHRM-CP/SCP certification preferred",
+          "met": true,
+          "level": "Preferred",
+          "evidence": "PHR certified (HRCI), current through 2027"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-22",
+      "jobId": "job-hr-spec",
+      "overallScore": 63,
+      "skillsScore": 60,
+      "experienceScore": 62,
+      "educationScore": 72,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 5,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 3,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 2,
+      "educationTotal": 3,
+      "penalties": [
+        "No HRIS administration experience",
+        "No HR certification"
+      ],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "4 years generalist HR experience at a mid-size construction firm and a staffing agency: recruiting, onboarding, and benefits support",
+        "Strong recruiting execution skills — managed full-cycle recruiting for 50+ trades and professional roles annually using Indeed and LinkedIn Recruiter",
+        "B.S. Business Administration from University of Dublin (2021); currently enrolled in SHRM-CP exam prep course",
+        "Comfortable with employment law basics: I-9 compliance, FMLA administration, and EEO reporting at current employer"
+      ],
+      "concerns": [
+        "No HRIS system administration experience — used spreadsheets and basic ATS (Greenhouse) only; not a Workday or SAP SuccessFactors user",
+        "No performance management facilitation or HR analytics/reporting experience",
+        "No formal HR certification; SHRM-CP prep in progress but not yet earned",
+        "Employee relations experience is limited — handled routine inquiries but no formal investigations or complex ER cases"
+      ],
+      "whyThisScore": "Brendan O'Sullivan has a solid generalist HR foundation in recruiting and basic HR administration but is missing key technical competencies that differentiate an HR Specialist: HRIS administration, performance management, HR analytics, and formal ER investigation experience. His lack of HR certification and limited HRIS exposure place him below the bar for a mid-level HR Specialist role at a larger organization, though he is well-positioned for growth into these areas.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "Recruiting / Talent Acquisition",
+          "evidence": "Full-cycle recruiting for 50+ roles annually using LinkedIn Recruiter, Indeed, and Greenhouse ATS; reduced time-to-fill by 12 days through sourcing process redesign.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Employee Relations",
+          "evidence": "Handled routine employee inquiries and PTO disputes; no formal investigation or complex ER case experience documented.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 4,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "HRIS Administration",
+          "evidence": "No HRIS administration experience; uses spreadsheets and basic Greenhouse ATS; no Workday, SuccessFactors, or ADP HRIS background.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Benefits Administration",
+          "evidence": "Supported open enrollment and benefits FAQs at construction firm; not primary benefits administrator — worked under HR Manager oversight.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "HR Compliance / Employment Law",
+          "evidence": "I-9 compliance, FMLA administration, and EEO reporting at current employer; basic compliance knowledge without complex regulatory experience.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Performance Management",
+          "evidence": "Distributed annual performance review forms and tracked completion; no facilitation, calibration, or coaching experience.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 2,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Training & Development",
+          "evidence": "Facilitated new hire orientation for 40+ employees annually; no formal training design or manager development programs.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "HR Analytics / Reporting",
+          "evidence": "No HR analytics or dashboard reporting experience; tracked headcount in spreadsheets only.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Oral Expression",
+          "evidence": "New hire orientation facilitation for 40+ employees; candidate phone screens and interviews throughout recruiting career.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Problem Sensitivity",
+          "evidence": "Noticed that new hire 30-day voluntary turnover was clustered in one department; raised staffing agency assignment process as likely contributor.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Information Ordering",
+          "evidence": "Managed onboarding paperwork and compliance documentation for 40+ new hires annually with no errors per audit review.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Human Resources, Business Administration, or related field",
+          "met": true,
+          "level": "Required",
+          "evidence": "B.S. Business Administration, University College Dublin, 2021"
+        },
+        {
+          "requirement": "3+ years HR Specialist or HRBP experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "4 years HR generalist experience across construction firm and staffing agency"
+        },
+        {
+          "requirement": "PHR, SPHR, or SHRM-CP/SCP certification preferred",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "SHRM-CP prep in progress — not yet certified"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-04",
+      "jobId": "job-hr-spec",
+      "overallScore": 84,
+      "skillsScore": 85,
+      "experienceScore": 88,
+      "educationScore": 75,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 7,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 4,
+      "softSkillsTotal": 5,
+      "experienceLevel": "High",
+      "educationMet": 2,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "8 years People Operations experience at Deloitte: HRIS administration (Workday, SAP SuccessFactors), full-cycle recruiting, and benefits management for 2,000+ employees",
+        "People analytics expertise — built SQL-driven workforce dashboards used by CHRO for quarterly talent reviews; quantitative background from CS degree",
+        "Led annual open enrollment project coordinating Benefits, Payroll, and IT for 2,000+ employees — strong cross-functional HR program management",
+        "Employee relations: managed 20+ workplace investigations at Deloitte with documented outcomes and zero legal escalations"
+      ],
+      "concerns": [
+        "B.S. Computer Science rather than HR/Business degree — meets educational requirement technically but not the expected HR academic pathway",
+        "No formal HR certification (PHR, SPHR, SHRM-CP) despite 8 years in the field — notable gap for a mid-to-senior HR Specialist role",
+        "Heavy focus on HRIS and analytics; less documented depth in performance management facilitation and training design"
+      ],
+      "whyThisScore": "Priya Sharma presents a compelling cross-job match: her entire 8-year career in People Operations at Deloitte directly covers 7 of 8 HR Specialist technical requirements. Her HRIS administration depth, people analytics skills from her CS background, and cross-functional HR program ownership are genuine strengths. The score stops just below 85 (Strong Match threshold) because of the missing HR certification and the performance management gap. She would be a high-value hire who is stronger in technical HR operations than in classic people-facing HR practices.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "HRIS Administration",
+          "evidence": "Workday and SAP SuccessFactors administration for 2,000+ employee workforce at Deloitte; configured modules for recruiting, onboarding, and performance management.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "Recruiting / Talent Acquisition",
+          "evidence": "Full-cycle recruiting for 100+ positions annually at Deloitte; developed standardized interview guide templates adopted firm-wide for 3 job families.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "HR Analytics / Reporting",
+          "evidence": "Built SQL-driven workforce dashboards tracking headcount, attrition, and DEI metrics for 2,000 employees; presented quarterly to CHRO and executive team.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 10,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Benefits Administration",
+          "evidence": "Led annual open enrollment for 2,000+ employees; coordinated across 6 benefits carriers and 3 internal departments; zero processing errors over 4 enrollment cycles.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "HR Compliance / Employment Law",
+          "evidence": "Managed FMLA administration, I-9 compliance audits, and EEO reporting for Deloitte's 3 regional offices; corrected compliance gaps identified in external audit.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Employee Relations",
+          "evidence": "Handled 20+ workplace investigations at Deloitte; documented outcomes and managed escalations; zero employment litigation during tenure.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Performance Management",
+          "evidence": "Administered Workday performance module for annual review cycles; limited evidence of facilitation, coaching, or calibration session ownership.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 6,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Training & Development",
+          "evidence": "Delivered HR compliance training (harassment prevention, FMLA) to 200+ managers; no learning design or leadership development program ownership.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified systemic onboarding compliance gaps across 3 Deloitte offices; designed corrective process reducing audit findings by 60%.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Information Ordering",
+          "evidence": "Managed concurrent HR projects: open enrollment, HRIS upgrades, and compliance audits across 3 offices — strong organizational discipline.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Oral Expression",
+          "evidence": "Delivered HR policy training to 200+ Deloitte managers; facilitated cross-functional workshops on performance calibration processes.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Human Resources, Business Administration, or related field",
+          "met": false,
+          "level": "Required",
+          "evidence": "B.S. Computer Science, Purdue University — not an HR or Business degree, though CS background adds HRIS depth"
+        },
+        {
+          "requirement": "3+ years HR Specialist or HRBP experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "8 years People Operations experience at Deloitte covering all core HR domains"
+        },
+        {
+          "requirement": "PHR, SPHR, or SHRM-CP/SCP certification preferred",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "No HR certification despite 8 years in the field"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    },
+    {
+      "candidateId": "cand-08",
+      "jobId": "job-hr-spec",
+      "overallScore": 76,
+      "skillsScore": 75,
+      "experienceScore": 80,
+      "educationScore": 72,
+      "matchLabel": "Partial Match",
+      "technicalSkillsMatched": 6,
+      "technicalSkillsTotal": 8,
+      "softSkillsMatched": 4,
+      "softSkillsTotal": 5,
+      "experienceLevel": "Medium",
+      "educationMet": 2,
+      "educationTotal": 3,
+      "penalties": [],
+      "locationMatch": true,
+      "seniorityMatch": true,
+      "employmentTypeMatch": true,
+      "strengths": [
+        "6 years workforce analytics and HR operations at Accenture and IBM — directly relevant HR domain experience covering HRIS, reporting, and people data management",
+        "Power BI dashboard development for HR leadership: 15 KPIs tracked for 10,000+ employee population; strong data and reporting foundation",
+        "M.S. Human Resources Management with analytics concentration — appropriate academic credential for an HR Specialist with analytics emphasis",
+        "Supported benefits administration, compliance reporting, and HRIS data quality at both employers — operational HR experience is genuine"
+      ],
+      "concerns": [
+        "No recruiting or talent acquisition experience — hiring manager relationship management and candidate pipeline ownership are absent from profile",
+        "No employee relations investigation experience; HR analytics role is data-facing rather than employee-facing",
+        "No HR certification (PHR, SHRM-CP); analytics-focused HR background without formal HR generalist credential",
+        "Limited performance management or training delivery experience — analytics-only HR specialist with gaps in people-practice domains"
+      ],
+      "whyThisScore": "David Kim is a strong HR analytics professional whose workforce reporting, HRIS data work, and operational HR support directly qualify him for the data-intensive aspects of an HR Specialist role. However, significant gaps exist in the employee-facing domains: no recruiting ownership, no ER investigation experience, and no training delivery. His profile is better suited to an HR Analyst or People Analytics Specialist role than a full HR Specialist requiring generalist breadth. The 76 Partial Match score reflects his genuine HR domain strength offset by these meaningful functional gaps.",
+      "skillEvidence": [
+        {
+          "rank": 1,
+          "skill": "HR Analytics / Reporting",
+          "evidence": "Built Power BI workforce dashboards at IBM tracking 15 KPIs for 10,000+ employees; presented quarterly to CHRO and Executive Committee.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 9,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 2,
+          "skill": "HRIS Administration",
+          "evidence": "HRIS data quality management and reporting configuration at Accenture (Workday) and IBM (SAP SuccessFactors); not full module administration but strong platform fluency.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 7,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 3,
+          "skill": "HR Compliance / Employment Law",
+          "evidence": "EEO-1 and VETS-4212 reporting managed at Accenture; I-9 audit data coordination at IBM; compliance reporting experience is solid.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 4,
+          "skill": "Benefits Administration",
+          "evidence": "Supported benefits enrollment data reconciliation at IBM; liaised between payroll and benefits carriers on data discrepancies; not primary benefits administrator.",
+          "source": "Resume",
+          "confidence": "mid",
+          "rawScore": 5,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 5,
+          "skill": "Performance Management",
+          "evidence": "Pulled performance review completion and rating distribution reports for HR leadership; no facilitation, calibration, or manager coaching experience.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Important",
+          "category": "technical"
+        },
+        {
+          "rank": 6,
+          "skill": "Recruiting / Talent Acquisition",
+          "evidence": "No recruiting or talent acquisition experience; workforce planning data analysis only — did not own candidate sourcing, screening, or hiring manager relationships.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 7,
+          "skill": "Employee Relations",
+          "evidence": "No employee relations investigation or case management experience; HR analytics role is data-facing, not employee-facing.",
+          "source": "Inferred",
+          "confidence": "low",
+          "rawScore": 1,
+          "priority": "Essential",
+          "category": "technical"
+        },
+        {
+          "rank": 8,
+          "skill": "Training & Development",
+          "evidence": "Trained HR team members on Power BI dashboard usage at IBM; no formal training design or enterprise L&D program delivery.",
+          "source": "Resume",
+          "confidence": "low",
+          "rawScore": 3,
+          "priority": "Preferred",
+          "category": "technical"
+        },
+        {
+          "rank": 9,
+          "skill": "Problem Sensitivity",
+          "evidence": "Identified that IBM voluntary attrition was concentrated in 2–4 year tenure band, enabling a targeted retention intervention program.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 10,
+          "skill": "Oral Expression",
+          "evidence": "Quarterly C-suite presentations on workforce analytics at IBM; known for translating complex data into clear HR narrative for executive audiences.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 8,
+          "priority": "Important",
+          "category": "soft"
+        },
+        {
+          "rank": 11,
+          "skill": "Information Ordering",
+          "evidence": "Coordinated IBM's annual workforce planning report across 12 business units involving data collection from 8 HRIS systems — strong project discipline.",
+          "source": "Resume",
+          "confidence": "high",
+          "rawScore": 7,
+          "priority": "Preferred",
+          "category": "soft"
+        }
+      ],
+      "qualificationScoring": [
+        {
+          "requirement": "Bachelor's degree in Human Resources, Business Administration, or related field",
+          "met": false,
+          "level": "Required",
+          "evidence": "M.S. Human Resources Management (Accenture-sponsored program) — graduate degree exceeds requirement but undergraduate degree field not listed"
+        },
+        {
+          "requirement": "3+ years HR Specialist or HRBP experience",
+          "met": true,
+          "level": "Required",
+          "evidence": "6 years workforce analytics and HR operations at Accenture (2019–2022) and IBM (2022–present)"
+        },
+        {
+          "requirement": "PHR, SPHR, or SHRM-CP/SCP certification preferred",
+          "met": false,
+          "level": "Preferred",
+          "evidence": "No HR certification; analytics-focused HR background"
+        }
+      ],
+      "scoredAt": "2026-03-28T00:00:00.000Z"
+    }
+  ]
+}

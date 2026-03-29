@@ -1,0 +1,157 @@
+{
+  "socCode": "15-2051.00",
+  "occupationTitle": "Data Scientist",
+  "jobZone": 5,
+  "technicalSkills": [
+    {
+      "elementId": "KN.001",
+      "name": "Statistics & Probability Theory",
+      "importance": 4.9,
+      "level": 7,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.001",
+      "name": "Machine Learning & Predictive Modeling",
+      "importance": 4.8,
+      "level": 7,
+      "category": "skill"
+    },
+    {
+      "elementId": "TK.001",
+      "name": "Python / R Programming",
+      "importance": 4.7,
+      "level": 7,
+      "category": "technology"
+    },
+    {
+      "elementId": "SK.002",
+      "name": "Data Mining & Feature Engineering",
+      "importance": 4.4,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "KN.002",
+      "name": "Mathematical Reasoning & Linear Algebra",
+      "importance": 4.3,
+      "level": 6,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.003",
+      "name": "Model Deployment & Productionization",
+      "importance": 3.9,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "TK.002",
+      "name": "SQL & Database Querying",
+      "importance": 4.1,
+      "level": 6,
+      "category": "technology"
+    },
+    {
+      "elementId": "TK.003",
+      "name": "Data Visualization (Matplotlib / Plotly / Tableau)",
+      "importance": 3.7,
+      "level": 5,
+      "category": "technology"
+    },
+    {
+      "elementId": "KN.003",
+      "name": "Experimental Design & A/B Testing",
+      "importance": 3.6,
+      "level": 5,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "TK.004",
+      "name": "NLP & ML Frameworks (TensorFlow / PyTorch / HuggingFace)",
+      "importance": 3.8,
+      "level": 5,
+      "category": "technology"
+    }
+  ],
+  "softSkills": [
+    {
+      "elementId": "AB.001",
+      "name": "Inductive Reasoning",
+      "importance": 4.6,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.002",
+      "name": "Deductive Reasoning",
+      "importance": 4.4,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.003",
+      "name": "Information Ordering",
+      "importance": 4.0,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.004",
+      "name": "Written Expression",
+      "importance": 3.8,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.005",
+      "name": "Oral Presentation & Communication",
+      "importance": 3.5,
+      "level": 4,
+      "category": "ability"
+    }
+  ],
+  "suggestedSkills": [
+    {
+      "name": "MLOps & Model Lifecycle Management",
+      "relevance": 9,
+      "category": "technical"
+    },
+    {
+      "name": "Advanced Feature Engineering",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "A/B Testing & Experimentation Platforms",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "Causal Inference & Causal ML",
+      "relevance": 7,
+      "category": "technical"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "Q001",
+      "requirement": "Master's or PhD in Statistics, Data Science, Computer Science, Mathematics, or related quantitative field",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q002",
+      "requirement": "Demonstrated experience with ML frameworks such as TensorFlow, PyTorch, or scikit-learn",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q003",
+      "requirement": "Published research, Kaggle competition placements, or a demonstrable project portfolio",
+      "level": "Preferred",
+      "type": "Qualification"
+    }
+  ],
+  "fetchedAt": "2026-03-28T00:00:00.000Z"
+}

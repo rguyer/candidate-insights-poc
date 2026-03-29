@@ -1,0 +1,163 @@
+{
+  "socCode": "13-2051.00",
+  "occupationTitle": "Financial Analyst",
+  "jobZone": 4,
+  "technicalSkills": [
+    {
+      "elementId": "SK.001",
+      "name": "Financial Modeling & Scenario Analysis",
+      "importance": 4.8,
+      "level": 7,
+      "category": "skill"
+    },
+    {
+      "elementId": "KN.001",
+      "name": "Economics & Corporate Finance Theory",
+      "importance": 4.5,
+      "level": 6,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "KN.002",
+      "name": "Mathematics & Quantitative Analysis",
+      "importance": 4.3,
+      "level": 6,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "KN.003",
+      "name": "Accounting Principles (GAAP / IFRS)",
+      "importance": 4.1,
+      "level": 5,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.002",
+      "name": "Statistical Analysis & Data Interpretation",
+      "importance": 3.9,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "TK.001",
+      "name": "Excel / VBA & Advanced Spreadsheet Modeling",
+      "importance": 4.6,
+      "level": 7,
+      "category": "technology"
+    },
+    {
+      "elementId": "TK.002",
+      "name": "ERP Systems (SAP / Oracle / NetSuite)",
+      "importance": 3.2,
+      "level": 4,
+      "category": "technology"
+    },
+    {
+      "elementId": "SK.003",
+      "name": "Financial Forecasting & Budgeting",
+      "importance": 4.4,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.004",
+      "name": "Valuation Methods (DCF, Comps, Precedent Transactions)",
+      "importance": 4.2,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "KN.004",
+      "name": "Regulatory Compliance & Reporting Standards",
+      "importance": 3.6,
+      "level": 4,
+      "category": "knowledge"
+    }
+  ],
+  "softSkills": [
+    {
+      "elementId": "AB.001",
+      "name": "Attention to Detail & Precision",
+      "importance": 4.7,
+      "level": 7,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.002",
+      "name": "Analytical Thinking & Critical Reasoning",
+      "importance": 4.6,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.003",
+      "name": "Written Comprehension",
+      "importance": 3.9,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.004",
+      "name": "Information Ordering",
+      "importance": 4.0,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.005",
+      "name": "Deductive Reasoning",
+      "importance": 4.2,
+      "level": 6,
+      "category": "ability"
+    }
+  ],
+  "suggestedSkills": [
+    {
+      "name": "Power BI / Tableau Dashboard Development",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "Python for Financial Analysis (pandas / NumPy)",
+      "relevance": 7,
+      "category": "technical"
+    },
+    {
+      "name": "Bloomberg Terminal Proficiency",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "CFA Charterholder Designation",
+      "relevance": 9,
+      "category": "technical"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "Q001",
+      "requirement": "Bachelor's degree in Finance, Economics, Accounting, or a related quantitative field",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q002",
+      "requirement": "2+ years of financial analysis, FP&A, investment analysis, or related experience",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q003",
+      "requirement": "CFA designation or CPA license",
+      "level": "Preferred",
+      "type": "Certification"
+    },
+    {
+      "id": "Q004",
+      "requirement": "MBA from an accredited business school",
+      "level": "Preferred",
+      "type": "Qualification"
+    }
+  ],
+  "fetchedAt": "2026-03-28T00:00:00.000Z"
+}

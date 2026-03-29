@@ -1,0 +1,163 @@
+{
+  "socCode": "29-1141.00",
+  "occupationTitle": "Registered Nurse",
+  "jobZone": 4,
+  "technicalSkills": [
+    {
+      "elementId": "KN.001",
+      "name": "Medicine & Clinical Nursing Knowledge",
+      "importance": 4.9,
+      "level": 7,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.001",
+      "name": "Patient Care & Bedside Nursing",
+      "importance": 4.8,
+      "level": 7,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.002",
+      "name": "Patient Monitoring & Vital Assessment",
+      "importance": 4.7,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "TK.001",
+      "name": "Medical Equipment Operation",
+      "importance": 4.4,
+      "level": 6,
+      "category": "technology"
+    },
+    {
+      "elementId": "TK.002",
+      "name": "Electronic Health Record (EHR) Systems",
+      "importance": 4.1,
+      "level": 5,
+      "category": "technology"
+    },
+    {
+      "elementId": "KN.002",
+      "name": "Pharmacology & Medication Administration",
+      "importance": 4.5,
+      "level": 6,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.003",
+      "name": "Infection Control & Sterile Technique",
+      "importance": 4.3,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.004",
+      "name": "Emergency Response & Triage",
+      "importance": 4.0,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.005",
+      "name": "Health Assessment & Physical Examination",
+      "importance": 4.6,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.006",
+      "name": "Individualized Care Planning",
+      "importance": 3.8,
+      "level": 5,
+      "category": "skill"
+    }
+  ],
+  "softSkills": [
+    {
+      "elementId": "AB.001",
+      "name": "Concern for Others & Empathy",
+      "importance": 4.8,
+      "level": 7,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.002",
+      "name": "Stress Tolerance & Resilience",
+      "importance": 4.6,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.003",
+      "name": "Dependability & Reliability",
+      "importance": 4.7,
+      "level": 7,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.004",
+      "name": "Cooperation & Teamwork",
+      "importance": 4.4,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.005",
+      "name": "Self Control Under Pressure",
+      "importance": 4.5,
+      "level": 6,
+      "category": "ability"
+    }
+  ],
+  "suggestedSkills": [
+    {
+      "name": "ACLS / BLS Certification",
+      "relevance": 10,
+      "category": "technical"
+    },
+    {
+      "name": "IV Therapy & Vascular Access",
+      "relevance": 9,
+      "category": "technical"
+    },
+    {
+      "name": "Wound Care & Dressing Management",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "Patient & Family Education",
+      "relevance": 8,
+      "category": "soft"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "Q001",
+      "requirement": "Bachelor of Science in Nursing (BSN) from an accredited program",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q002",
+      "requirement": "Active, unencumbered Registered Nurse (RN) license in the state of practice",
+      "level": "Required",
+      "type": "Certification"
+    },
+    {
+      "id": "Q003",
+      "requirement": "Passed NCLEX-RN licensing examination",
+      "level": "Required",
+      "type": "Certification"
+    },
+    {
+      "id": "Q004",
+      "requirement": "1+ years ICU, Critical Care, or acute care hospital experience",
+      "level": "Preferred",
+      "type": "Qualification"
+    }
+  ],
+  "fetchedAt": "2026-03-28T00:00:00.000Z"
+}

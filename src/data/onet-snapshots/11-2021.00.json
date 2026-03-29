@@ -1,0 +1,163 @@
+{
+  "socCode": "11-2021.00",
+  "occupationTitle": "Marketing Manager",
+  "jobZone": 4,
+  "technicalSkills": [
+    {
+      "elementId": "SK.001",
+      "name": "Marketing Strategy & Go-to-Market Planning",
+      "importance": 4.7,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.002",
+      "name": "Digital Marketing & Omnichannel Campaigns",
+      "importance": 4.5,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "KN.001",
+      "name": "Brand Management & Brand Architecture",
+      "importance": 4.3,
+      "level": 6,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.003",
+      "name": "Market Research & Consumer Insights",
+      "importance": 4.1,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.004",
+      "name": "Campaign Management & Execution",
+      "importance": 4.2,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "TK.001",
+      "name": "Analytics Tools (Google Analytics / Adobe Analytics)",
+      "importance": 3.9,
+      "level": 5,
+      "category": "technology"
+    },
+    {
+      "elementId": "TK.002",
+      "name": "CRM Systems (Salesforce / HubSpot)",
+      "importance": 3.7,
+      "level": 5,
+      "category": "technology"
+    },
+    {
+      "elementId": "SK.005",
+      "name": "Content Strategy & Editorial Planning",
+      "importance": 3.8,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.006",
+      "name": "Budget Management & ROI Optimization",
+      "importance": 4.0,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.007",
+      "name": "SEO / SEM & Paid Search",
+      "importance": 3.5,
+      "level": 4,
+      "category": "skill"
+    }
+  ],
+  "softSkills": [
+    {
+      "elementId": "AB.001",
+      "name": "Leadership & Team Development",
+      "importance": 4.6,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.002",
+      "name": "Initiative & Entrepreneurial Drive",
+      "importance": 4.3,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.003",
+      "name": "Persuasion & Influencing Skills",
+      "importance": 4.4,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.004",
+      "name": "Oral Expression & Presentation",
+      "importance": 4.1,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.005",
+      "name": "Written Expression & Storytelling",
+      "importance": 4.2,
+      "level": 5,
+      "category": "ability"
+    }
+  ],
+  "suggestedSkills": [
+    {
+      "name": "HubSpot / Salesforce Marketing Cloud",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "Marketing Automation & Lead Nurturing",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "Paid Media Strategy (Meta / Google Ads)",
+      "relevance": 7,
+      "category": "technical"
+    },
+    {
+      "name": "Account-Based Marketing (ABM)",
+      "relevance": 7,
+      "category": "technical"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "Q001",
+      "requirement": "Bachelor's degree in Marketing, Business Administration, Communications, or related field",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q002",
+      "requirement": "5+ years of progressive marketing experience, including campaign ownership and strategy",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q003",
+      "requirement": "Demonstrated experience managing and developing a marketing team of 2+ people",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q004",
+      "requirement": "Google Ads certification, Meta Blueprint certification, or equivalent platform credential",
+      "level": "Preferred",
+      "type": "Certification"
+    }
+  ],
+  "fetchedAt": "2026-03-28T00:00:00.000Z"
+}

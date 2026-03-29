@@ -1,0 +1,157 @@
+{
+  "socCode": "13-1071.00",
+  "occupationTitle": "Human Resources Specialist",
+  "jobZone": 3,
+  "technicalSkills": [
+    {
+      "elementId": "KN.001",
+      "name": "Human Resources Management Principles",
+      "importance": 4.6,
+      "level": 6,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "KN.002",
+      "name": "Labor Law & Employment Regulations",
+      "importance": 4.4,
+      "level": 5,
+      "category": "knowledge"
+    },
+    {
+      "elementId": "SK.001",
+      "name": "Recruiting & Talent Acquisition",
+      "importance": 4.5,
+      "level": 6,
+      "category": "skill"
+    },
+    {
+      "elementId": "TK.001",
+      "name": "HRIS Systems (Workday / ADP / BambooHR)",
+      "importance": 3.8,
+      "level": 5,
+      "category": "technology"
+    },
+    {
+      "elementId": "SK.002",
+      "name": "Benefits Administration & Open Enrollment",
+      "importance": 3.6,
+      "level": 4,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.003",
+      "name": "Compensation Analysis & Pay Equity",
+      "importance": 3.5,
+      "level": 4,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.004",
+      "name": "Employee Relations & Conflict Resolution",
+      "importance": 4.2,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.005",
+      "name": "New Employee Onboarding & Orientation",
+      "importance": 4.0,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "SK.006",
+      "name": "Performance Management & Review Cycles",
+      "importance": 3.9,
+      "level": 5,
+      "category": "skill"
+    },
+    {
+      "elementId": "KN.003",
+      "name": "HR Compliance & Recordkeeping (FMLA / ADA / EEOC)",
+      "importance": 4.1,
+      "level": 5,
+      "category": "knowledge"
+    }
+  ],
+  "softSkills": [
+    {
+      "elementId": "AB.001",
+      "name": "Concern for Others & Empathy",
+      "importance": 4.5,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.002",
+      "name": "Integrity & Discretion",
+      "importance": 4.7,
+      "level": 6,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.003",
+      "name": "Cooperation & Collaborative Approach",
+      "importance": 4.3,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.004",
+      "name": "Social Perceptiveness",
+      "importance": 4.1,
+      "level": 5,
+      "category": "ability"
+    },
+    {
+      "elementId": "AB.005",
+      "name": "Oral Expression & Active Listening",
+      "importance": 4.4,
+      "level": 6,
+      "category": "ability"
+    }
+  ],
+  "suggestedSkills": [
+    {
+      "name": "Workday HCM Administration",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "Applicant Tracking Systems (ATS) — Greenhouse / Lever / iCIMS",
+      "relevance": 8,
+      "category": "technical"
+    },
+    {
+      "name": "DEIB Programs & Inclusive Hiring Practices",
+      "relevance": 7,
+      "category": "soft"
+    },
+    {
+      "name": "Workforce Planning & Headcount Modeling",
+      "relevance": 7,
+      "category": "technical"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "Q001",
+      "requirement": "Bachelor's degree in Human Resources, Business Administration, Psychology, or related field",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q002",
+      "requirement": "2+ years of HR generalist, recruiting, or HR operations experience",
+      "level": "Required",
+      "type": "Qualification"
+    },
+    {
+      "id": "Q003",
+      "requirement": "SHRM-CP, SHRM-SCP, PHR, or SPHR certification",
+      "level": "Preferred",
+      "type": "Certification"
+    }
+  ],
+  "fetchedAt": "2026-03-28T00:00:00.000Z"
+}
