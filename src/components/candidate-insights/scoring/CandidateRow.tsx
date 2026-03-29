@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import type { ScoreResult } from "@/lib/candidate-insights/types";
 import MatchBadge from "./MatchBadge";
 import ScoreExpandedCard from "./ScoreExpandedCard";
@@ -54,9 +55,12 @@ export default function CandidateRow({
   return (
     <div className={`rounded-2xl border border-gray-200 overflow-hidden bg-white shadow-sm ${isNewlyEligible ? "animate-flash-green" : ""}`}>
       {/* Main row */}
-      <button
+      <div
         onClick={onToggle}
-        className="w-full flex items-center gap-4 px-5 py-4 hover:bg-gray-50 transition-colors text-left"
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") onToggle(); }}
+        className="w-full flex items-center gap-4 px-5 py-4 hover:bg-gray-50 transition-colors text-left cursor-pointer"
       >
         {/* Rank */}
         <span className="text-gray-400 font-bold text-sm w-8 flex-shrink-0 text-right">
@@ -74,7 +78,7 @@ export default function CandidateRow({
 
         {/* Name + email */}
         <div className="flex-1 min-w-0">
-          <div className="font-semibold text-gray-900 text-sm truncate">{candidate.name}</div>
+          <Link href={`/candidate-insights/candidates/${candidate.id}`} onClick={(e) => e.stopPropagation()} className="font-semibold text-gray-900 text-sm truncate hover:text-[#1A5C4E] hover:underline">{candidate.name}</Link>
           <div className="text-xs text-gray-500 truncate">{candidate.email}</div>
         </div>
 
@@ -107,7 +111,7 @@ export default function CandidateRow({
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
-      </button>
+      </div>
 
       {/* Expanded panel */}
       {isExpanded && (
