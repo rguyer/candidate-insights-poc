@@ -12,7 +12,7 @@ import CandidateRow from "@/components/candidate-insights/scoring/CandidateRow";
 import SkillEvidenceTable from "@/components/candidate-insights/scoring/SkillEvidenceTable";
 import ScoreBreakdownModal from "@/components/candidate-insights/scoring/ScoreBreakdownModal";
 import RealityCheckPanel from "@/components/candidate-insights/scoring/RealityCheckPanel";
-import { computeRealityCheck, recalculateScore, scoreToMatchLabel } from "@/lib/candidate-insights/onet/rubric-builder";
+import { computeRealityCheck, recalculateScore, scoreToMatchLabel, skillNamesMatch } from "@/lib/candidate-insights/onet/rubric-builder";
 import type {
   MockJob,
   MockCandidate,
@@ -41,7 +41,7 @@ export default function JobDetailClient({
   candidates,
   snapshot,
 }: Props) {
-  const [activeView, setActiveView] = useState<ActiveView>("rubric");
+  const [activeView, setActiveView] = useState<ActiveView>("results");
   const [rubric, setRubric] = useState<ScoringRubric>(initialRubric);
   const [scores, setScores] = useState<ScoreResult[]>(initialScores);
   const [expandedCandidateId, setExpandedCandidateId] = useState<string | null>(null);
@@ -66,11 +66,14 @@ export default function JobDetailClient({
       // Recalculate every candidate's score client-side
       const prevLabels = new Map(scores.map((s) => [s.candidateId, s.matchLabel]));
 
+      // Find the rubric skill name for this skillId so we can fuzzy-match evidence
+      const allSkills = [...newRubric.technicalSkills, ...newRubric.softSkills];
+      const changedSkill = allSkills.find((s) => s.id === skillId);
+
       const newScores = scores.map((score) => {
-        // Update the priority on this skill in the evidence
+        // Update the priority on this skill in the evidence using fuzzy name matching
         const updatedEvidence = score.skillEvidence.map((e) =>
-          e.skill.toLowerCase().replace(/[^a-z0-9]/g, "") ===
-          skillId.replace(/^(tech|soft)-/, "").replace(/[^a-z0-9]/g, "")
+          changedSkill && skillNamesMatch(e.skill, changedSkill.name)
             ? { ...e, priority }
             : e
         );
@@ -199,7 +202,7 @@ export default function JobDetailClient({
       {/* Tab bar */}
       <div className="bg-white border-b border-gray-200">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 flex gap-0">
-          {(["rubric", "results"] as ActiveView[]).map((view) => (
+          {(["results", "rubric"] as ActiveView[]).map((view) => (
             <button
               key={view}
               onClick={() => setActiveView(view)}

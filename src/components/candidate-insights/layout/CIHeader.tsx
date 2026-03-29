@@ -32,7 +32,7 @@ export default function CIHeader({ title }: CIHeaderProps) {
       <div className="h-6 w-px bg-white/20 shrink-0" />
 
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-1 text-sm">
+      <nav className="flex items-center gap-1 text-sm flex-1">
         <Link
           href="/candidate-insights"
           className="flex items-center gap-1 text-white/70 hover:text-white transition-colors"
@@ -49,6 +49,15 @@ export default function CIHeader({ title }: CIHeaderProps) {
           </>
         )}
       </nav>
+
+      {/* How It Works link */}
+      <Link
+        href="/candidate-insights/how-it-works"
+        className="shrink-0 flex items-center gap-1.5 text-white/70 hover:text-white text-xs font-medium transition-colors border border-white/20 hover:border-white/40 rounded-md px-3 py-1.5"
+      >
+        <span>📖</span>
+        <span>How It Works</span>
+      </Link>
     </header>
   );
 }

@@ -46,14 +46,6 @@ export default function RealityCheckPanel({ result, onReclassify }: RealityCheck
         </div>
       </div>
 
-      {/* No flags state */}
-      {!hasFlags && (
-        <div className="flex items-center gap-2 text-sm text-green-700 font-medium">
-          <span className="text-green-500">✓</span>
-          Your skill requirements are well-calibrated to the available talent pool.
-        </div>
-      )}
-
       {/* Scarcity flags */}
       {hasFlags && (
         <ul className="space-y-4">

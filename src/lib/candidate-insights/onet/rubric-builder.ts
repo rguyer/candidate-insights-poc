@@ -106,6 +106,17 @@ export function scoreToMatchLabel(
   return "Low Match";
 }
 
+// Fuzzy skill name matcher — handles O*NET long names vs. short evidence names
+// e.g. "Programming Languages & Paradigms" matches "Programming"
+export function skillNamesMatch(evidenceName: string, rubricName: string): boolean {
+  const norm = (s: string) =>
+    s.toLowerCase().replace(/[^a-z0-9\s]/g, "").trim();
+  const e = norm(evidenceName);
+  const r = norm(rubricName);
+  // Exact, or one contains the other (handles abbreviations + O*NET long names)
+  return e === r || r.includes(e) || e.includes(r);
+}
+
 // Reality Check: identify Essential skills with high elimination rates
 export function computeRealityCheck(
   rubric: ScoringRubric,
@@ -138,9 +149,9 @@ export function computeRealityCheck(
       // Count candidates who scored < 5/10 on this skill (considered "eliminated" by it)
       const eliminated = scores.filter((candidate) => {
         const ev = candidate.skillEvidence.find(
-          (e) => e.skill.toLowerCase() === skill.name.toLowerCase()
+          (e) => skillNamesMatch(e.skill, skill.name)
         );
-        return ev ? ev.rawScore < 5 : true; // no evidence = eliminated
+        return ev ? ev.rawScore < 5 : false; // no evidence entry → assume not scored, don't penalise
       }).length;
 
       const eliminationRate =
